@@ -1,0 +1,34 @@
+{
+    "title": "Virtual Search and Destroy",
+    "date": "2017",
+    "detail": "Search the crowd. Find the target. Destroy.",
+    "extended_details": "The project uses an Oculus headset with two cameras to allow for an augmented reality display. From this display, the computer selects a target that you have to take out before time is up and all hope is lost.",
+    "team_profiles": [
+        {
+            "username": "@snspeer",
+            "name": "@snspeer"
+        },
+        {
+            "username": "@acortes",
+            "name": "@acortes"
+        },
+        {
+            "username": "@cvaz",
+            "name": "@cvaz"
+        },
+        {
+            "username": "@nbiggs",
+            "name": "@nbiggs"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Amazon.com : YI Home Camera Wireless IP Security Surveillance System (",
+            "cost": "$29.99",
+            "quantity": "\n",
+            "total": "2"
+        }
+    ],
+    "image": "/project-images/00123.jpg",
+    "features": []
+}

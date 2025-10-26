@@ -1,0 +1,143 @@
+{
+    "title": "HexDisplay",
+    "date": "2024",
+    "detail": "What if display but hexagon?",
+    "featured": false,
+    "awards": [],
+    "extended_details": "The project aimed to create a LED hex display, capable of displaying real-time information such as the current time, weather, and bus schedule. The display consists of hexagons, each representing a component of the information to be shown. It was created by designing a PCB in KiCad and soldering WS2812 strips onto it. We then screwed it onto acrylic with headers connecting the boards. A Pi Pico W was used to control the display with an I2C bus for peripherals such as a light senosr. Tkinter was used to generate masks, which were used to define the shape and arrangement of LEDs within each hexagon. The Picos were programmed using the C SDK and CMake. We were able to build a functional LED hex display that only displayed preset masks. We hope to expand the software further in the future. ",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Dane Engman"
+        },
+        {
+            "username": "",
+            "name": "Jenny Ou"
+        },
+        {
+            "username": "",
+            "name": "Cora Marcet"
+        },
+        {
+            "username": "",
+            "name": "Cody Breidenbach"
+        },
+        {
+            "username": "",
+            "name": "Jolie Wasserman"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "JLCPCB PCBs",
+            "cost": 13.78,
+            "quantity": 5
+        },
+        {
+            "part": "Speakers",
+            "cost": 6.88,
+            "quantity": 1
+        },
+        {
+            "part": "LED Strips",
+            "cost": 19.99,
+            "quantity": 4
+        },
+        {
+            "part": "5V Power Supply",
+            "cost": 24.99,
+            "quantity": 1
+        },
+        {
+            "part": "Disconnectable SAE Power Cable",
+            "cost": 6.99,
+            "quantity": 1
+        },
+        {
+            "part": "Screws",
+            "cost": 21.34,
+            "quantity": 1
+        },
+        {
+            "part": "Amazon 3 - Tax",
+            "cost": 2.1,
+            "quantity": 1
+        },
+        {
+            "part": "Amazon 2 - Tax",
+            "cost": 5.52,
+            "quantity": 1
+        },
+        {
+            "part": "Barrel Jacks",
+            "cost": 5.99,
+            "quantity": 1
+        },
+        {
+            "part": "Barrel Plugs",
+            "cost": 8.99,
+            "quantity": 1
+        },
+        {
+            "part": "MAX98357A",
+            "cost": 5.95,
+            "quantity": 1
+        },
+        {
+            "part": "CONN HEADER R/A 40POS 2.54MM",
+            "cost": 0.74,
+            "quantity": 10
+        },
+        {
+            "part": "ADAFRUIT TCA8418 KEYPAD MATRIX A",
+            "cost": 5.95,
+            "quantity": 1
+        },
+        {
+            "part": "SWITCH KEYPAD 12 KEY NON-ILLUM",
+            "cost": 3.95,
+            "quantity": 1
+        },
+        {
+            "part": "RASPBERRY PI PICO W RP2040",
+            "cost": 6,
+            "quantity": 2
+        },
+        {
+            "part": "RASPBERRY PI PICO RP2040",
+            "cost": 4,
+            "quantity": 2
+        },
+        {
+            "part": "CONN HDR 40POS 0.1 GOLD PCB R/A",
+            "cost": 0.89,
+            "quantity": 5
+        },
+        {
+            "part": "CONN PWR JACK 2X5.5MM SOLDER",
+            "cost": 0.61,
+            "quantity": 1
+        },
+        {
+            "part": "CONN PWR PLUG 2.1X5.5MM SOLDER",
+            "cost": 1.22,
+            "quantity": 1
+        },
+        {
+            "part": "CONN HDR 40POS 0.1 GOLD PCB",
+            "cost": 1.09,
+            "quantity": 5
+        },
+        {
+            "part": "CONN HEADER VERT 40POS 2.54MM",
+            "cost": 0.51,
+            "quantity": 5
+        },
+        {
+            "part": "Digikey - Tax",
+            "cost": 10.64,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00161.jpg"
+}

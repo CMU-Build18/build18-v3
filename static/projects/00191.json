@@ -1,0 +1,32 @@
+{
+    "title": "May the drones be with you!",
+    "date": "2023",
+    "detail": "Have you ever wanted to use the force? Now you can with our state of the art\u2026\n\n\u2026force drone!\n\nOur project is to create a drone that can be controlled with one\u2019s hand. We\u2019ll use a motion  camera to identify which gestures the user is making with their hand and identify the position of the user's arm. If a user points their arm in a direction, the drone will fly in the direction the arm is pointing.\n\nThe drone will also feature a box that opens when the drone starts flying and closes when the drone lands inside.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Nikhil Patel"
+        },
+        {
+            "username": "",
+            "name": "Caleb Lille"
+        },
+        {
+            "username": "",
+            "name": "Grace Xin"
+        },
+        {
+            "username": "",
+            "name": "Junhan Chen"
+        },
+        {
+            "username": "",
+            "name": "Takumi Natsume"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00191.png"
+}

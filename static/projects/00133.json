@@ -1,0 +1,32 @@
+{
+    "title": "ELECTR\u00c6GLOVE PRO 9000-1X",
+    "date": "2024",
+    "detail": "Ever wanted to play video games, but without a controller or keyboard? Now with the Electr\u00e6Glove Pro 9000-1X you can!",
+    "featured": false,
+    "awards": [],
+    "extended_details": "Before starting to assemble the hardware, we had to plan out where to place the IMU units\n(that collect accelerometer and gyroscope data) to make meaningful gestures. In the end,\nwe decided to place units on three separate fingers since moving the fingers would give us\nmore varied data to work with. We also put the time of flight (ToF) sensor (that dictates\nwhen to brake and is activated by putting another hand above the glove) on the top of the\nglove hand. All of the wiring (including the microcontroller that processes the IMU data)\nis done on the top of the glove as well (which makes for easier connectivity).\nNext, we wrote the code that collects the IMU data. Since each IMU is identical, the I2C\naddress is also identical, so in order to differentiate between each of the three sensors, we\nused a mux and wired a different IMU sensor to each channel of the mux, and then with\nthe Arduino, we collected data from each mux channel separately. We did a similar process\nwith the ToF sensor. These inputs are used to activate keyboard commands which are sent\nto the computer.\nThe outcome was a working glove that could interface with \u201cwasd\u201d keys which allows us to\nplay games. The game we decided to feature with this project is Forza Motorsport 8 which\nis historically known as a game that is not friendly to keyboard inputs. However, we hope\nthis project can serve as a baseline into exploring other methods of control.",
+    "team_profiles": [
+        {
+            "username": "Nicolas Keck",
+            "name": "Nicolas Keck"
+        },
+        {
+            "username": "",
+            "name": "Kevin St Luce"
+        },
+        {
+            "username": "",
+            "name": "Lohith Tummala"
+        },
+        {
+            "username": "",
+            "name": "Lijie Yang"
+        },
+        {
+            "username": "",
+            "name": "Alan Abraham"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00133.png"
+}

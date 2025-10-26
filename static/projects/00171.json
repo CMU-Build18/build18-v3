@@ -1,0 +1,108 @@
+{
+    "title": "Harry Potter Gobstones",
+    "date": "2024",
+    "detail": "Welcome to Harry Potter Gobstones, the magic marble game. Shoot the magic marbles as close to the center \"snake pit\" as possible, but don't fall in!",
+    "featured": false,
+    "awards": [],
+    "extended_details": "The premise of our project was to bring the magic marble game, Gobstones, from Harry Potter to life by using electromagnets controlled by a stepper motor xy system similar to that of a 3D printer. We split our project into 3 main parts: the software, the mechanics, and the hardware. On the software side, we coded an app through python and CMU graphics to create the marble game on-screen. The play style is similar to that of Angry Birds, where you can click, drag, and release to decide your marbles' trajectory. Each player takes turns to shoot their marbles as close to the center \"snake pit\" as possible without falling in. Marbles that fall in are removed from the board. On the mechanics side, we cut and engraved a game board and 3D printed marbles in the Harry Potter house colors. We assembled our stepper motor system using aluminum rods, gear belts, and 3D-printed parts. On the hardware side, we calibrated the stepper motors and electromagnet accordingly with the game board using Arduino, breadboard circuits, and soldering. However, we ran into issues putting together these three parts into a full, cohesive game. That being said we are able to demonstrate the software and hardware components individually.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Caitlyn Fong"
+        },
+        {
+            "username": "",
+            "name": "Namky Eun"
+        },
+        {
+            "username": "",
+            "name": "Teresa Cai"
+        },
+        {
+            "username": "",
+            "name": "Jieun Lim"
+        },
+        {
+            "username": "",
+            "name": "Claire Kim"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "60 Pack 6\u00d72mm Small Neodymium Magnets",
+            "cost": 3.99,
+            "quantity": 1
+        },
+        {
+            "part": "HiLetgo 5pcs A4988 Stepstick Stepper Motor Driver Module",
+            "cost": 10.19,
+            "quantity": 1
+        },
+        {
+            "part": "HiLetgo 10pcs Micro Limit Switch",
+            "cost": 5.99,
+            "quantity": 1
+        },
+        {
+            "part": "ARDUINO MEGA 2560 REV3",
+            "cost": 48.9,
+            "quantity": 1
+        },
+        {
+            "part": "3D Printer Stepper Motor Extension Cable",
+            "cost": 13.99,
+            "quantity": 1
+        },
+        {
+            "part": "DC12V 2A Power Supply Adapter",
+            "cost": 9.99,
+            "quantity": 1
+        },
+        {
+            "part": "Diann 4pcs TT Motor DC 3-6V Gearbox Motor",
+            "cost": 7.99,
+            "quantity": 1
+        },
+        {
+            "part": "STEPPERONLINE 5PCS Nema 17 Stepper Motor",
+            "cost": 11.99,
+            "quantity": 1
+        },
+        {
+            "part": "5M GT2 Timing Belt",
+            "cost": 12.99,
+            "quantity": 2
+        },
+        {
+            "part": "uxcell 5V 50N Electric Lifting Magnet Electromagnet",
+            "cost": 9.49,
+            "quantity": 1
+        },
+        {
+            "part": "Multipurpose 6061 Aluminum 3/8\" Diameter, 3 Feet Long 8974K24",
+            "cost": 4.41,
+            "quantity": 4
+        },
+        {
+            "part": "WINSINN GT2 Pulley 20 Teeth 5mm bore 6mm Width 20T Timing Belt Pulley Wheel",
+            "cost": 6.99,
+            "quantity": 2
+        },
+        {
+            "part": "Zeberoxyz 10pcs Copper Buckle",
+            "cost": 8.99,
+            "quantity": 1
+        },
+        {
+            "part": "VSKIZ Refrigerator Magnets 50 Pcs, 10x3mm",
+            "cost": 6.07,
+            "quantity": 1
+        },
+        {
+            "part": "1/4'' Hardwood, 4ftx8ft",
+            "cost": 29.88,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00171.jpg"
+}

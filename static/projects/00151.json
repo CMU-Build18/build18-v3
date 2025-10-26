@@ -1,0 +1,93 @@
+{
+    "title": "RoboSign",
+    "date": "2024",
+    "detail": "A robotic hand that depicts certain numbers. ",
+    "featured": false,
+    "awards": [],
+    "extended_details": "The purpose of our project was to originally display certain signs in American Sign Language (ASL) using speech to sign on the robotic hand in order to bring awareness to and aid the deaf community. We used servo motors to control the fingers, 3D printed fingers and a laser cut wood pieces for the structure of the hand and palm, illusion cord, string and beads to keep the joints of the fingers taut, filament, and breadboarding materials. We implemented a variety of strategies in order to try to achieve our goal such as: using DC motors, potentiometer angle sensors, and regular motor drivers to drive the circuit but ran into issues regarding the motor drivers' capabilities. We settled on using Servo motors themselves to control the fingers at a maximum rotation angle of 180 degrees. In addition to the hardware component of our project, we developed software using Python to convert speech to text and utilized a media pose library. Additionally, we used Arduino IDE to control the motors' functionality and in tandem the control of the robotic hand. Although we were unable to fully integrate our software with our hardware regarding the signs, and were unable to achieve reliable control of the hands based off of our design, we were able to successfully achieve the speech recognition and gain control of the servo motors.  ",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Simran Patibanda"
+        },
+        {
+            "username": "",
+            "name": "Archita Jain"
+        },
+        {
+            "username": "",
+            "name": "Mahati Manda"
+        },
+        {
+            "username": "",
+            "name": "Carolyn Alex"
+        },
+        {
+            "username": "",
+            "name": "Adithi Phadke"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Potentiometer angle sensor (with flat sides)",
+            "cost": 1.7,
+            "quantity": 10
+        },
+        {
+            "part": "Gear motor (6c 60 rpm)",
+            "cost": 5,
+            "quantity": 12
+        },
+        {
+            "part": "Motor driver (DRV8833)",
+            "cost": 2.67,
+            "quantity": 6
+        },
+        {
+            "part": "Servo Motor (wrist)",
+            "cost": 3.8,
+            "quantity": 6
+        },
+        {
+            "part": "Elastic String",
+            "cost": 4.72,
+            "quantity": 1
+        },
+        {
+            "part": "Microphone",
+            "cost": 6.5,
+            "quantity": 2
+        },
+        {
+            "part": "Webcam",
+            "cost": 18.15,
+            "quantity": 1
+        },
+        {
+            "part": "3.5 mm Audio Jack",
+            "cost": 2.66,
+            "quantity": 3
+        },
+        {
+            "part": "Batteries",
+            "cost": 1.58,
+            "quantity": 12
+        },
+        {
+            "part": "Battery Packs",
+            "cost": 4.99,
+            "quantity": 1
+        },
+        {
+            "part": "LED screen - display text",
+            "cost": 3.67,
+            "quantity": 3
+        },
+        {
+            "part": "3D printer filament",
+            "cost": 23.99,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00151.jpg"
+}

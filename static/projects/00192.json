@@ -1,0 +1,28 @@
+{
+    "title": "FizzBuzz Accelerator Card",
+    "date": "2023",
+    "detail": "Ever been asked \"How can you optimize this in an interview?\", now you have an easy answer with the FizzBuzz accelerator card. Using the power of FPGA's and the PCIE bus, you can now saturate the bus with a meaningless coding exercise.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "M Nguyen"
+        },
+        {
+            "username": "",
+            "name": "Jon Recta"
+        },
+        {
+            "username": "",
+            "name": "Sherry Wan"
+        },
+        {
+            "username": "",
+            "name": "Erin Yan"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00192.png"
+}

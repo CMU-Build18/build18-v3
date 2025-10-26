@@ -1,0 +1,32 @@
+{
+    "title": "DDR@CMU",
+    "date": "2024",
+    "detail": "A DDR cabinet for our campus!",
+    "featured": false,
+    "awards": [],
+    "extended_details": "It\u2019d be really cool to have a DDR machine here on-campus, and we already had a dancepad.\nWith this, the cost to build a cabinet would be less than $300. To be clear, we are not\nmaking our own DDR pad, as it is very difficult to make a high-quality pad from scratch.\nWe used a spare desktop and monitor; we flashed an empty SSD with an Arch Linux image\nthat had the ITG software already installed. The computer autoboots into the software,\nwhich allows users to immediately begin playing DDR. We registered the DDR dancepad\nand a keypad for navigation for users to easily select a song and begin playing.\nWe also built a base for the pad so that it wouldn\u2019t slide around while playing. We wanted\nto add a support bar to the pad for players to keep their balance, but unfortunately we\ndid not have the welding tools to make the bar to our standards. We plan to add that\nto our project in the future. We also built a cabinet that could hold both the computer\nand the monitor; it\u2019s connected to the pad via a long USB cable. Lastly, we decorated the\ncabinet with BlinkStick LEDs, which are programmable over USB using Python. We set\nthe LEDs to strobe once the game begins.\nWe achieved a minimally-viable product showing how you could make a simple, cheap\nDDR cabinet. In the future, we\u2019d like to extend this cabinet by adding a second DDR pad\nfor two-player. Furthermore, we\u2019d like to get a larger monitor for the cabinet. Lastly, we\u2019re\nstill looking for a home on-campus for the cab - stay tuned!",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Joel Gonzalez"
+        },
+        {
+            "username": "",
+            "name": "Chi Gao"
+        },
+        {
+            "username": "",
+            "name": "Jessica Wu"
+        },
+        {
+            "username": "",
+            "name": "Icey Chen"
+        },
+        {
+            "username": "",
+            "name": "Anya Jasthi"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00136.png"
+}

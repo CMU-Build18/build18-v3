@@ -1,0 +1,28 @@
+{
+    "title": "LaTeX Speed Typing Keyboard",
+    "date": "2024",
+    "detail": "Revolutionize LaTeX typesetting with our specialized keyboard,\ndesigned to streamline equation input and minimize keystrokes.\nExperience effortless equation rendering, as our keyboard seamlessly translates your inputs into LaTeX code for optimal efficiency.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "LaTeX is always hard and unintuitive to typeset. In constrast, entering equations on\nTI-nspire and similar graphing calculators is much more straightforward. So, why not build\na keyboard that is only for LaTeX and make typesetting in LaTeX as simple as entering\nequations on TI-nspire?\nThe tasks of our project is 2-fold. There is a hardward component and a software component.\nThe hardware is a simple 8x8 keyboard that is smaller than an iPhone. It sends data\nthrough the serial port to a PC. The software component is a web UI that receives keyboard\nevents from the keyboard and renders them into LaTeX in real time. The web UI should\nsupport features including moving the cursor and backspacing.\nDetails:\nThe keyboard is a customized PCB integrating 8x8 buttons and connecting the signal wires\nto a ESP32 MCU. The ESP32 is purchased externally and plugged into the socket on the\nPCB. ESP32 constantly scans for keyboard events using pull-down input GPIOs ports,\nand sends the index of the key pressed to the PC using the UART port.\nThe web UI implements a LaTeX editor in Javascript, using a tree data structure to store\nthe symbols. This is the most non-trivial part of the project, as implementing the data\nstructure is challenging. For debugging purposes, a 8x8 button grid is also displayed in the\nUI, and the user can either click on the virtual keyboard or use the real keyboard. The\nequation typed into the UI is rendered in real-time, and its corresponding raw LaTeX is\ndisplayed.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Melody Huang"
+        },
+        {
+            "username": "",
+            "name": "Vento Li"
+        },
+        {
+            "username": "",
+            "name": "Adrian Mu\u00f1oz"
+        },
+        {
+            "username": "",
+            "name": "Samuel Sun"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00142.png"
+}

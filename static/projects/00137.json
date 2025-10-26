@@ -1,0 +1,24 @@
+{
+    "title": "Arduino Sign Language (ASL)",
+    "date": "2024",
+    "detail": "Ever wanted to be able to convert someone signing in ASL to\ncharacters. With Arduino Sign Language, you can!",
+    "featured": false,
+    "awards": [],
+    "extended_details": "This project allows for people who do not understand American Sign Language themselves\nto read what someone who is signing is trying to say. The project consists of a glove with\nmultiple sensors on it to detect the different positions of the hand along with the movement\nthat it is doing. Flex resistors were attached to each finger and could sense how curled\nthe finger is. An IMU (gyroscope/accelerometer) was connected to the top of the palm\nto detect movement. The data was collected for each letter into a CSV file then fed into\na TensorFlow neural net as training. The model was exported after training then it was\nused to predict the new data from the sensors when actually using the project. The model\nwas able to achieve around 90% accuracy in validation data.\n",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Andrew Cuonzo"
+        },
+        {
+            "username": "",
+            "name": "Liam Merino"
+        },
+        {
+            "username": "",
+            "name": " Sebastian Garcia"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00137.png"
+}

@@ -1,0 +1,73 @@
+{
+    "title": "BWNace",
+    "date": "2024",
+    "detail": "Basic linear photodiodes sensor that can detect distinct differences in light.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "We initially designed a PCB for a CMOS sensor in which we wrote Verilog code for.  However,  due to unexpected reason, the CMOS sensor was not able to output anything.  Therefore, we decided to design a basic linear photodiode sensor that can detect distinct differences in light through an ADC in Arduino and show a corresponding 10x10 image after being processed in software.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "William Hung"
+        },
+        {
+            "username": "",
+            "name": "Jeff Kim"
+        },
+        {
+            "username": "",
+            "name": "Tom Tang"
+        },
+        {
+            "username": "",
+            "name": "Olina Zhang"
+        },
+        {
+            "username": "",
+            "name": "Sharon Lai"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "AR0134CSSC00SPCA0-DPBR",
+            "cost": 31.09,
+            "quantity": 1
+        },
+        {
+            "part": "PETGR1755BLACK",
+            "cost": 64,
+            "quantity": 1
+        },
+        {
+            "part": "PCB Stencil",
+            "cost": 48.53,
+            "quantity": 1
+        },
+        {
+            "part": "PCB board",
+            "cost": 26.33,
+            "quantity": 1
+        },
+        {
+            "part": "FIT0805",
+            "cost": 27,
+            "quantity": 1
+        },
+        {
+            "part": "DFROBOT MDV 2x2A DC Motor Controller for Arduino (L298N)",
+            "cost": 18.98,
+            "quantity": 1
+        },
+        {
+            "part": "Adafruit TB6612 1.2A DC/Stepper Motor Driver Breakout Board",
+            "cost": 6.95,
+            "quantity": 1
+        },
+        {
+            "part": "Universal Proto-board PCBs 4cm x 6cm - 3 Pack",
+            "cost": 2.5,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00162.png"
+}

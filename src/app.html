@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title property="title" content="Build18"> Build18 </title>
+	<meta property="og:title" content="Build18" />
+	<meta property="og:description"
+		content="Build18 is where creativity, curiosity and engineering intersect at Carnegie Mellon University. Build with us!" />
+	<meta property="og:image" content="https://i.imgur.com/eEUMNEZ.png" />
+
+
+	<!-- Preload critical resources -->
+	<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+	<link rel="preconnect" href="https://cmu-build18.firebaseapp.com" crossorigin>
+	<link rel="dns-prefetch" href="https://firestore.googleapis.com">
+	<link rel="dns-prefetch" href="https://identitytoolkit.googleapis.com">
+	
+	<!-- Preload key images that might be LCP candidates -->
+	<link rel="preload" href="%sveltekit.assets%/breadboards/build18-breadboard.svg" as="image" type="image/svg+xml">
+	<link rel="preload" href="%sveltekit.assets%/breadboards/build18-breadboard-01.svg" as="image" type="image/svg+xml">
+	<link rel="preload" href="%sveltekit.assets%/breadboards/build18-breadboard-02.svg" as="image" type="image/svg+xml">
+	<link rel="preload" href="%sveltekit.assets%/breadboards/build18-breadboard-03.svg" as="image" type="image/svg+xml">
+	<link rel="preload" href="%sveltekit.assets%/breadboards/build18-breadboard-04.svg" as="image" type="image/svg+xml">
+	<link rel="preload" href="%sveltekit.assets%/breadboards/build18-breadboard-05.svg" as="image" type="image/svg+xml">
+	
+	<!-- Critical resource hints -->
+	<link rel="modulepreload" href="/src/app.css">
+	<link rel="modulepreload" href="/src/lib/firebase.js">
+	
+	%sveltekit.head%
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			font-family: Arial, sans-serif;
+			line-height: 1.6;
+		}
+	</style>
+</head>
+
+<body data-sveltekit-preload-data="hover">
+	<div style="display: contents">%sveltekit.body%</div>
+</body>
+
+</html>

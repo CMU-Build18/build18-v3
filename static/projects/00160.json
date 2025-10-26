@@ -1,0 +1,71 @@
+{
+    "title": "YINZ BUS",
+    "date": "2024",
+    "detail": "YINZ BUS displays your favorite bus lines onto a 3D representation of Pittsburgh. Using data from the PRT TrueTime API, this map tracks bus locations in real-time!",
+    "featured": false,
+    "awards": [
+        "Officer's Choice"
+    ],
+    "extended_details": "\"YINZ BUS integrates with PRT TrueTime API to transform popular bus lines into an engaging physical map. The integration with the API allows for bus data, such as line and location, to be displayed on the LED map.\nThe board is made up of laser cut parts and LED strips which help mimic the actual routes. The LEDs are then treated as an array of indeces, and after receiving data from the TrueTime API, the bus locations are mapped onto the array and are auto-updated every 10 seconds. \nDuring Build Week, the work was divided into 3 parts: design/fabrication, electrical work, and software integration. After the final designs of the board were completed in CAD, the strips were cut to specification and meticulously tested to ensure that re-shaping the strip allowed for communication across all LEDs. The software work first focused on successfully making an HTTP request over WiFi using the ESP32 chip and receiving data from the PRT TrueTime API. Once that was completed, the data was processed to get distance from the endpoints of the route. Using this distance information, we were able to approximate which LED the current location corresponded to. \nThe project is completed with all desired details and functionalities included. The map displays bus information in real-time and allows users to toggle between different lines, allowing them to see their favorite buses along a semi-accurate Pittsburgh map.\"",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Gordon Xu"
+        },
+        {
+            "username": "",
+            "name": "YJ Eum"
+        },
+        {
+            "username": "",
+            "name": "Jillian Haguisan"
+        },
+        {
+            "username": "",
+            "name": "Michelle Heo"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "12\"x24\" Acrylic sheet",
+            "cost": 17.87,
+            "quantity": 2
+        },
+        {
+            "part": "12\"x24\" MDF",
+            "cost": 10.26,
+            "quantity": 2
+        },
+        {
+            "part": "Sparkfun ESP32 Thing Plus USB-C",
+            "cost": 32.36,
+            "quantity": 2
+        },
+        {
+            "part": "LEDs",
+            "cost": 10.59,
+            "quantity": 3
+        },
+        {
+            "part": "1 in Flat Chip Brush",
+            "cost": 1.27,
+            "quantity": 2
+        },
+        {
+            "part": "1/4 2x4 Sanded Plywood",
+            "cost": 14.94,
+            "quantity": 2
+        },
+        {
+            "part": "5.0 mm 2x4 panel",
+            "cost": 13.34,
+            "quantity": 2
+        },
+        {
+            "part": "Buttons + Stickers",
+            "cost": 16.19,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00160.jpg"
+}

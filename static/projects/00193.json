@@ -1,0 +1,28 @@
+{
+    "title": "Lanternfly Air Defense System",
+    "date": "2025",
+    "detail": "Lanternflies are a pest that damage the local ecosystem and are a bother to Pittsburgh residents. We aim to create an auto-detecting pressure washer turret system to shoot and kill spotted lanternflies called Lanternfly Air Defense System (LADS). LADS will detect flying lantern flies and shoot it with a white vinegar and water mixture through a pressure washer. It will detect lanternflies using 2 cameras mounted on the turret running a machine learning detection program. When a lanternfly is detected, the turret will then turn towards the lanternfly and fire.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Kevin Luo"
+        },
+        {
+            "username": "",
+            "name": "Tiffany Ahn"
+        },
+        {
+            "username": "",
+            "name": "Lilly Yang"
+        },
+        {
+            "username": "",
+            "name": "Daniel Lopez"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00193.png"
+}

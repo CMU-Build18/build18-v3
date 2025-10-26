@@ -1,0 +1,32 @@
+{
+    "title": "Real Subway Surfers",
+    "date": "2024",
+    "detail": "Real-life Subway Surfers where you become the character! Hop on\nthe board and enjoy the game!",
+    "featured": false,
+    "awards": [],
+    "extended_details": "The purpose is for users to experience a more challenging Subway Surfers. Instead of playing it on computer with a keyboard or on the phone, players can control the characters by stepping on a board. This is a fun way exercise while also playing games. We used acrylic for the top of the board to get an aesthetic look with a wooden base where we connected all the electrical components. For each piece, we used metal strips sandwiched around foam. When the user steps on a specific wooden board, the top metal strip bends to touch the bottom strip. The top metal bars are connected to ground, so when the top connects with the bottom metal bar, the bottom bar is grounded, thus sending a signal to\nthe Arduino which determines what key should be pressed. After many hours of debugging, we overcame hardware issues, such as poor wire connections from the solder and copper tapes, and software issues, where the Arduino wouldn\u2019t stop running the same section of code. Now, the final product is ready to play!",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Anna Paek"
+        },
+        {
+            "username": "",
+            "name": "Rhea Kripalani"
+        },
+        {
+            "username": "",
+            "name": "Tanisha Mehta"
+        },
+        {
+            "username": "",
+            "name": "May Paek"
+        },
+        {
+            "username": "",
+            "name": "Gloria Wang"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00140.png"
+}

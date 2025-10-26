@@ -1,0 +1,55 @@
+{
+    "title": "Robot Card Dealer",
+    "date": "2024",
+    "detail": "Are you tired of fumbling with cards? Level up your game with our robot dealer that shuffles and deals without human hiccups! ",
+    "featured": false,
+    "awards": [],
+    "extended_details": "The build project aims to automate the card dealing process. The build distributes a deck of cards to four players positioned in the north, south, east, and west directions. The card tray's base is rotated in all directions using a stepper motor connected to a mounting hub, while a smaller stepper motor powers a miniature wheel with a rubber tread for card dispensing. The ELEGOO Mega R3 controller board, along with stepper motor drivers, runs the entire process, implementing a shuffling algorithm for precise card distribution and controlling the motion of the two motors. To enhance both aesthetics and functionality, activation buttons and a SerLCD were integrated to initiate the build and display selected settings.  \n\nBefore Build Week, the structure of the card dealer was considered. The groundwork was laid out for the start of the build phase during Build Week. Throughout the wiring and coding processes, we confronted challenges related to code execution and the control of the two stepper motors. A significant portion of Build Week was dedicated to resolving imprecisions in the turning angles of the stepper motors through code adjustments. Although the final product is a functional object, it falls short of the precision and accuracy we initially envisioned. Despite this, the overall outcome was satisfactory, considering the constraints of time, experience, and resources allotted to the project.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Sida Cheng"
+        },
+        {
+            "username": "",
+            "name": "Anson Li"
+        },
+        {
+            "username": "",
+            "name": "Jacob Xu"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Stepper Motor with Cable",
+            "cost": 17.5,
+            "quantity": 1
+        },
+        {
+            "part": "Small Stepper Motor",
+            "cost": 8.95,
+            "quantity": 1
+        },
+        {
+            "part": "EasyDriver - Stepper Motor Driver",
+            "cost": 16.95,
+            "quantity": 1
+        },
+        {
+            "part": "Qwiic Button",
+            "cost": 4.95,
+            "quantity": 1
+        },
+        {
+            "part": "ELEGOO Mega R3 kit",
+            "cost": 48.96,
+            "quantity": 1
+        },
+        {
+            "part": "5mm mounting hub",
+            "cost": 8.5,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00144.jpg"
+}

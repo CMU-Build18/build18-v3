@@ -1,0 +1,20 @@
+{
+    "title": "High Five Bot",
+    "date": "2025",
+    "detail": "This is a 4 DOF robot arm that will detect an open palm, track it, and give it a high five. It will feature elements of Numerical Inverse Kinematics, Stereoscopic 3D Plotting and Computer Vision to ensure that the High Five Bot will be ready to tackle any number of high fives in any position smoothly.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Raghav Srinivasan"
+        },
+        {
+            "username": "",
+            "name": "Atharv Kashyap"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00194.png"
+}

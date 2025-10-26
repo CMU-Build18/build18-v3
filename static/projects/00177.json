@@ -1,0 +1,32 @@
+{
+    "title": "3D Scanner",
+    "date": 2023,
+    "detail": " We intend to build a cost-efficient 3D scanner that takes images of small objects and reconstructs them in 3D. The main physical components consist of a bottom plate to place the object and to help correct the camera, a small car with camera to move around to preset locations. The software component involves primarily the algorithm to reconstruct the 3D object from the 2D images",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Yikang Cheng"
+        },
+        {
+            "username": "",
+            "name": "Yutian Chen"
+        },
+        {
+            "username": "",
+            "name": "Shengxi Wu"
+        },
+        {
+            "username": "",
+            "name": "Siyuan Chen"
+        },
+        {
+            "username": "",
+            "name": "Dingchao Rong"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00177.png"
+}

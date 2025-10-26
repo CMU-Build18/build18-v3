@@ -1,0 +1,225 @@
+{
+    "title": "Craft18",
+    "date": "2024",
+    "detail": "Bring Minecraft Redstone circuits to life using Craft18, our physical re-creation of the game\u2019s \u201ccircuit\u201d mechanics using only discrete analog components. Look ma, no microcontrollers! To build even more complex circuits, link the physical world to the virtual world using our custom game plugin and game-to-physical bridge!",
+    "featured": true,
+    "awards": [
+        "Outstanding Project"
+    ],
+    "extended_details": "In the open-world sandbox Minecraft, the Redstone system acts similar to real-life electricity, so why not emulate it with real-life electrical components? We\u2019ve implemented the most important Redstone blocks, such as torches and comparators, using only discrete analog components. We never touched a single microcontroller or specialized chip!\n\nAs part of our implementation, we use open-drain logic (to replicate the propagation behavior of the game), a large number of Schmitt Trigger RC delay-line circuits (to replicate in-game timing), and a handful of 555 timers, comparators, and other logic chips to implement more specialized logical behavior. We\u2019ve also 3D printed the physical blocks to exactly match the visuals from the game.\n\nAdditionally, we\u2019ve implemented a bridge to the game itself, so our physical Craft18 circuits can be linked into a larger circuit built in the game. This is done using a custom Minecraft server plugin that captures Redstone states and creates a bi-directional USB-GPIO bridge to our physical system.\n\nRedstone is often used as a tool to help teach logic understanding to children, and we hope that our physical recreation can help solidify this, as well as eventually bridging the gap from Redstone logic into building real-world circuits.\n\nOverall, our project was a resounding success. We successfully implemented nearly all of the components we wanted, with behavior almost indistinguishable from the game itself!\n\nhttps://github.com/asinghani/craft18",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Anish Singhani"
+        },
+        {
+            "username": "",
+            "name": "Carson Swoveland"
+        },
+        {
+            "username": "",
+            "name": "Gary Bailey"
+        },
+        {
+            "username": "",
+            "name": "Milo Posadas"
+        },
+        {
+            "username": "",
+            "name": "Robbie Mones"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "JLCPCB: connector breakout boards (aids in assembly)",
+            "cost": 96.76,
+            "quantity": 1
+        },
+        {
+            "part": "DIP oscilllator",
+            "cost": 0.09,
+            "quantity": 25
+        },
+        {
+            "part": "SOP oscillator",
+            "cost": 0.04,
+            "quantity": 50
+        },
+        {
+            "part": "20mA RED LED",
+            "cost": 0.04,
+            "quantity": 100
+        },
+        {
+            "part": "25mA BLUE LED",
+            "cost": 0.01,
+            "quantity": 300
+        },
+        {
+            "part": "25mA GRN LED",
+            "cost": 0.01,
+            "quantity": 300
+        },
+        {
+            "part": "5mA RED LED",
+            "cost": 0.01,
+            "quantity": 300
+        },
+        {
+            "part": "SOT-23 inverter SN74LVC2G14",
+            "cost": 0.05,
+            "quantity": 150
+        },
+        {
+            "part": "74AUP1G126 BUFFER",
+            "cost": 0.13,
+            "quantity": 50
+        },
+        {
+            "part": "3mV comparator",
+            "cost": 0.04,
+            "quantity": 100
+        },
+        {
+            "part": "schmitt inverter",
+            "cost": 0.17,
+            "quantity": 50
+        },
+        {
+            "part": "non-schmitt inverter",
+            "cost": 0.06,
+            "quantity": 100
+        },
+        {
+            "part": "LVC buffer",
+            "cost": 0.04,
+            "quantity": 100
+        },
+        {
+            "part": "AND gate",
+            "cost": 0.1,
+            "quantity": 20
+        },
+        {
+            "part": "10kohm trimpot",
+            "cost": 0.26,
+            "quantity": 20
+        },
+        {
+            "part": "1uF capacitor",
+            "cost": 0.02,
+            "quantity": 200
+        },
+        {
+            "part": "4.7uF capacitor",
+            "cost": 0.02,
+            "quantity": 200
+        },
+        {
+            "part": "10uF capacitor",
+            "cost": 0.02,
+            "quantity": 100
+        },
+        {
+            "part": "100nf capacitor",
+            "cost": 0.01,
+            "quantity": 200
+        },
+        {
+            "part": "10nf capacitor",
+            "cost": 0.01,
+            "quantity": 200
+        },
+        {
+            "part": "Piezo Buzzer - PS1240",
+            "cost": 1.5,
+            "quantity": 3
+        },
+        {
+            "part": "Mini Panel Mount SPDT Toggle Switch",
+            "cost": 0.95,
+            "quantity": 5
+        },
+        {
+            "part": "Copper Foil Tape with Conductive Adhesive",
+            "cost": 5.95,
+            "quantity": 1
+        },
+        {
+            "part": "Super Bright Red 5mm LED (25 pack)",
+            "cost": 8,
+            "quantity": 1
+        },
+        {
+            "part": "Adafruit LED Sequins - Warm White - Pack of 5",
+            "cost": 3.95,
+            "quantity": 1
+        },
+        {
+            "part": "5mm x 2mm magnets",
+            "cost": 3.99,
+            "quantity": 1
+        },
+        {
+            "part": "20pcs 74HC14 Schmitt Trigger Inverter DIP",
+            "cost": 7.49,
+            "quantity": 2
+        },
+        {
+            "part": "100pcs Male Header Pins",
+            "cost": 8.99,
+            "quantity": 1
+        },
+        {
+            "part": "Switchable USB Hub",
+            "cost": 16.95,
+            "quantity": 1
+        },
+        {
+            "part": "Photocell 20pcs",
+            "cost": 5.99,
+            "quantity": 1
+        },
+        {
+            "part": "Female headers 1x3 50pcs",
+            "cost": 7.99,
+            "quantity": 3
+        },
+        {
+            "part": "Protective Rubber Feet Pack",
+            "cost": 6.99,
+            "quantity": 1
+        },
+        {
+            "part": "100k trimpot pack",
+            "cost": 9.99,
+            "quantity": 1
+        },
+        {
+            "part": "ne555 timer IC pack",
+            "cost": 6.99,
+            "quantity": 1
+        },
+        {
+            "part": "3D printer filament",
+            "cost": 0,
+            "quantity": 1
+        },
+        {
+            "part": "Silicone Wire",
+            "cost": 0,
+            "quantity": 1
+        },
+        {
+            "part": "Arduino Nano Every",
+            "cost": 0,
+            "quantity": 1
+        },
+        {
+            "part": "N-channel MOSFET",
+            "cost": 0,
+            "quantity": 100
+        }
+    ],
+    "image": "/project-images/00148.jpg"
+}

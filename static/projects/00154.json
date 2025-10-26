@@ -1,0 +1,38 @@
+{
+    "title": "FPGA CNN Accelerator",
+    "date": 2024,
+    "detail": "Accelerate neural net on FPGA",
+    "featured": false,
+    "awards": [],
+    "extended_details": "We implemented a basic hand-writing recognition neural net with C that includes basic matrix operations such as add and multiply. We got the model to run on the embedded ARM core on the FPGA while implemented the operations with SystemVerilog. Then we experimented the interface between the CPU and the FPGA and tried to replace the matrix operations with hardware implementation to speed up the calculations. Eventually everything works on simulation, but due to the limiting logic and memory capacity of our FPGA, we weren't able to fully synthesize everything.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Ying Meng"
+        },
+        {
+            "username": "",
+            "name": "Felicia Liu"
+        },
+        {
+            "username": "",
+            "name": "Andrew Liao"
+        },
+        {
+            "username": "",
+            "name": "Mark Chen"
+        },
+        {
+            "username": "",
+            "name": "Jessie Wang"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "DE10-Standard Development Kit (Academic)",
+            "cost": 365,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00154.png"
+}

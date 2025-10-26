@@ -1,0 +1,42 @@
+{
+    "title": "Flex'em Wreck'em",
+    "date": "2024",
+    "detail": "Play Rock'em Sock'em with your entire body. Flex to punch and move around to dodge.",
+    "extended_details": "Play Rock'em Sock'em with your entire body. Muscle sensors are used to read electrical impulses in each bicep and are used to activate a motor that pushes down the original game's punching mechanism. An accelerometer is worn as a hat and gather's movement data. This movement data is translated into the rotational and linear motion of the original game's robots.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Eladio Andujar Lugo"
+        },
+        {
+            "username": "",
+            "name": "Niklas Firestone"
+        },
+        {
+            "username": "",
+            "name": "Marianne Baiden"
+        },
+        {
+            "username": "",
+            "name": "Siddharth Singh"
+        },
+        {
+            "username": "",
+            "name": "Enrique Gomez"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "",
+            "cost": "",
+            "quantity": "",
+            "total": ""
+        }
+    ],
+    "awards": [
+        ""
+    ],
+    "built18": false,
+    "image": "/project-images/00116.jpg",
+    "features": []
+}

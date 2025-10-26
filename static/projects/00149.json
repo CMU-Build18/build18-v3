@@ -1,0 +1,60 @@
+{
+    "title": "Guitar That Only Plays Wonderwall",
+    "date": "2024",
+    "detail": "It's a guitar that only plays Wonderwall, but what other song would you need? https://knowyourmeme.com/memes/wonderwall",
+    "featured": true,
+    "awards": [
+        "First Penguin"
+    ],
+    "extended_details": "We made a self-playing electric guitar that can play any song, as long as that song is Wonderwall (or any other four chord song that has the same key and song structure). This was done with a Python app, Raspberry Pi Pico microcontroller, servos, and solenoids. The Python app serves as the graphical user interface for the user to pause, play, and move throughout the song. The app then uses this input and sends commands to the Pi Pico to control the hardware. The solenoids press down on the correct strings, while the servos strum the strings to the rhythm of Wonderwall. As of one and a half hours before Demo Day, we have not yet fully assembled the project but we have hope...",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Nora Wan"
+        },
+        {
+            "username": "",
+            "name": "Aden Fiol"
+        },
+        {
+            "username": "",
+            "name": "Erica Fu"
+        },
+        {
+            "username": "",
+            "name": "Lexi Batrachenko"
+        },
+        {
+            "username": "",
+            "name": "Danny Cui"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Small Push-Pull Solenoid - 12VDC",
+            "cost": 6.75,
+            "quantity": 14
+        },
+        {
+            "part": "6 pcs MG996R 55g Metal Gear Torque Digital Servo Motor for Futaba JR RC Helicopter Car Boat Robot",
+            "cost": 26.99,
+            "quantity": 2
+        },
+        {
+            "part": "N-channel power MOSFET - 30V / 60A",
+            "cost": 2.03,
+            "quantity": 14
+        },
+        {
+            "part": "ZENY 39\" Full Size Electric Guitar with Amp, Case and Accessories Pack Beginner Starter Package, Blue Ideal Christmas Thanksgiving Holiday Gift",
+            "cost": 80.79,
+            "quantity": 1
+        },
+        {
+            "part": "Creality 3D Printer Filament, PLA Filament 1.75mm Bundle 2kg for 3D Printing, Ender PLA Filament No-Tangling, Strong Bonding & Overhang Performance, Accuracy +/- 0.02mm (Black & White 2-Pack)",
+            "cost": 22.09,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00149.jpg"
+}

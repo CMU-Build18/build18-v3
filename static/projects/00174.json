@@ -1,0 +1,68 @@
+{
+    "title": "Wall-E Barista",
+    "date": "2024",
+    "detail": "Welcome to the future of coffee service with the Wondrous Automated Latte Lovers\u2019 Expert, a delightful mobile robot barista inspired by the iconic WALL-E! WALL-E combines a Mars-rover inspired body with a coffee maker\u2019s toolkit to provide a unique and interactive coffee experience, bringing you coffee when you\u2019re too run-down from classes to make your own.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "The purpose of WALL-E was really to let us implement the concepts we learned in class on a project that we all enjoyed since we're all avid coffee drinkers and have an interest in engineering. Initially, WALL-E had a lot more moving parts, including an onboard coffee machine so that it could directly make the coffee for you. As the project evolved, it became less automated due to time constraints. The final concept ended as a robot that could still bring coffee to you, but it wouldn't be making the coffee directly. WALL-E would be remote-controlled, with a driver moving around the robot. We had issues with the Bluetooth module as we could not connect the module to a device. At its core, WALL-E remained the same throughout Build Week, though the specifics of the coffee delivery method changed.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Nicholas Ortiz"
+        },
+        {
+            "username": "",
+            "name": "Lakshmi Adiga"
+        },
+        {
+            "username": "",
+            "name": "Sophia Holland"
+        },
+        {
+            "username": "",
+            "name": "Mia Kong"
+        },
+        {
+            "username": "",
+            "name": "Rohit Dasanoor"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Coffee maker",
+            "cost": null,
+            "quantity": 1
+        },
+        {
+            "part": "Coffee dispenser",
+            "cost": null,
+            "quantity": 1
+        },
+        {
+            "part": "Instant coffee",
+            "cost": null,
+            "quantity": 1
+        },
+        {
+            "part": "Arduino bluetooth module",
+            "cost": null,
+            "quantity": 1
+        },
+        {
+            "part": "Wheels + Motor",
+            "cost": null,
+            "quantity": 1
+        },
+        {
+            "part": "Cardboard casing",
+            "cost": null,
+            "quantity": 1
+        },
+        {
+            "part": "Battery",
+            "cost": null,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00174.jpg"
+}

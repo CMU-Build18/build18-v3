@@ -1,0 +1,38 @@
+{
+    "title": "Our AutoMagic Garden",
+    "date": "2024",
+    "detail": "Garden that waters itself and manages its own lighting!",
+    "featured": false,
+    "awards": [],
+    "extended_details": "Our garden utilizes moisture sensors in the soil to know when to open its water valves and pump water into the pots. Each pot has its own water settings depending on its plant type! In additon, utilizing a light sensor, the garden knows when to turn its grow light on/off. Lastly, there is a display screen that tells the user information about the state of each potted plant. ",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Kaitlyn Ng"
+        },
+        {
+            "username": "",
+            "name": "Smriti Chopra"
+        },
+        {
+            "username": "",
+            "name": "Katherine Li"
+        },
+        {
+            "username": "",
+            "name": "Rhea"
+        },
+        {
+            "username": "",
+            "name": "Ashley Hu"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "",
+            "cost": 0,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00155.png"
+}

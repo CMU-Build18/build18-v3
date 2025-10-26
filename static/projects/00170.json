@@ -1,0 +1,83 @@
+{
+    "title": "Mozartonomy",
+    "date": "2024",
+    "detail": "This piano is a box of memories. It records what you play, stores its data, and plays it back with the exact key movements, tempo, and pitch - allowing you to keep it forever.",
+    "featured": false,
+    "awards": [
+        "Media Magician"
+    ],
+    "extended_details": "\"As big classical music fans, we both always wondered how composers like Chopin or Liszt used to play the piano. However, because we were born in different lifetimes, we never had the opportunity to watch them play. Thus, Mozartonomy's piano records everything that a pianist plays and allows us to store it in a file. This is then played back so that we can see the exact movements that the pianist executed on the piano. This is a masterpiece that can be kept for life, and for others to still be able to see in the future. \n\nOur piano consists of 12 keys (1 octave). Using buttons below each key, it senses what the user plays and records the time the buttons were pressed, as well as the times that the buttons were rest. All these data are stored into a file and played back. It is played back using 12 solenoids which drives each key, allowing the user to look at how those keys were individually pressed and how they were played. The sound of the piano was driven by a speaker. \n\nWe also enclosed the piano in a nice little box that was laser cut. It has record, play, and stop buttons which allows the user to intuitively perform these actions. \n\nOur hope is to eventually scale this up to a full, 88-key working piano. :) \n\"",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Tjun Jet Ong"
+        },
+        {
+            "username": "",
+            "name": "Debrina Angelica"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "M3 x 10mm Capstan Screws (DIN 404) - A1 Stainless Steel",
+            "cost": 1.05,
+            "quantity": 25
+        },
+        {
+            "part": "Swhmc Piano Actions Upright String Machine Linkage Rod Vertical Piano Repair Parts Replacement",
+            "cost": 6.99,
+            "quantity": 12
+        },
+        {
+            "part": "flic-flac 42pcs1.4mm Thick Soft Felt Fabric Sheet Assorted Color Felt Pack DIY Craft Sewing Squares Nonwoven Patchwork (20cm * 20cm)",
+            "cost": 14.88,
+            "quantity": 1
+        },
+        {
+            "part": "Small Push-Pull Solenoid - 12VDC",
+            "cost": 6.75,
+            "quantity": 12
+        },
+        {
+            "part": "Arduino Motor Shield Rev3",
+            "cost": 24,
+            "quantity": 2
+        },
+        {
+            "part": "Makeshift Piano Hammers (50 pcs)",
+            "cost": 12.79,
+            "quantity": 1
+        },
+        {
+            "part": "Guitar Pegs - AOMGD Guitar String Tuning Peg Tuner Machine Head",
+            "cost": 9.99,
+            "quantity": 2
+        },
+        {
+            "part": "BELFORT Guitar Strings for Acoustic Guitar - Premium Steel Phosphor Bronze (6 String Set) for Western Guitar & Acoustic Guitar BONUS: 4 Picks + Extra High E String (011)",
+            "cost": 8.99,
+            "quantity": 4
+        },
+        {
+            "part": "Micro SD TF Card Adater Reader Module 6Pin SPI Interface Driver Module with chip Level Conversion for Arduino UNO R3 MEGA 2560 Due",
+            "cost": 6.99,
+            "quantity": 1
+        },
+        {
+            "part": "1N4001G Power Diode",
+            "cost": 5.99,
+            "quantity": 1
+        },
+        {
+            "part": "TIP120 Darlington Power Transistor",
+            "cost": 7.99,
+            "quantity": 1
+        },
+        {
+            "part": "L293D DC Motor Drive Shield",
+            "cost": 7.49,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00170.jpg"
+}

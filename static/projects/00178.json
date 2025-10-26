@@ -1,0 +1,20 @@
+{
+    "title": "Analytical Engine",
+    "date": "2023",
+    "detail": "Our goal is to emulate a working computer inspired by the Analytical Engine proposed by Charles Babbage in 1837 on an FPGA. This would include implementing the Engine\u2019s key architecture - the mill (analogous to an ALU), the store (memory), the reader (input), and the printer (output) - with a design that incorporates elements faithful to Babbage\u2019s initial ideation and writings translated by Ada Lovelace, while taking necessary \u201cshortcuts\u201d through the FPGA platform for the sake of feasibility. On the physical side, we plan to build a custom punch card reader and an output \u201cdisplay\u201d with a thermal printer module as a nod to the Engine\u2019s original design. We will start small, and aim to implement basic computer functionalities (basic arithmetic operations, registers, etc.) before moving on to expanding those features and building the physical aspects of the machine.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Mingkai Chen"
+        },
+        {
+            "username": "",
+            "name": "Debrina Angelica"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00178.png"
+}

@@ -1,0 +1,60 @@
+{
+    "title": "Lazy Laundry",
+    "date": "2024",
+    "detail": "For all the lazy people that are not lazy enough to stand infront of the laundry machine. ",
+    "featured": false,
+    "awards": [],
+    "extended_details": "Our device is a laundry machine monitor that uses a vibration sensor and an Arduino. The output of the vibration sensor is processed by the Arduino and converted a digital voltage. When the voltage is 0, it indicates no vibration, which means the laundry machine is \"OFF\". Conversely, when there is some voltage reading, it indicates \"ON\". This result is sent to an LCD display through the I2C bus and it will display \"Processing...\" when \"ON\" and \"Ready!\" when \"OFF\". We attempted to use Zigbee wireless communication protocol to send the ON/OFF information wirelessly but we were not able to. ",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Barbara "
+        },
+        {
+            "username": "",
+            "name": "Evan"
+        },
+        {
+            "username": "",
+            "name": "Aaron"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Grove - Piezo Vibration Sensor",
+            "cost": null,
+            "quantity": 2
+        },
+        {
+            "part": "SparkFun RedBoard",
+            "cost": null,
+            "quantity": 2
+        },
+        {
+            "part": "Thing Plus",
+            "cost": null,
+            "quantity": 2
+        },
+        {
+            "part": "4 pin Female Jumper to Grove 4 pin Conversion Cable (5 PCs per Pack)",
+            "cost": null,
+            "quantity": 1
+        },
+        {
+            "part": "Female-Female Jumper Wires - 200mm x 40",
+            "cost": null,
+            "quantity": 1
+        },
+        {
+            "part": "Male-Male Jumper Wires - 200mm x 40",
+            "cost": null,
+            "quantity": 1
+        },
+        {
+            "part": "Shipping",
+            "cost": null,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00163.jpg"
+}

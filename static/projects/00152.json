@@ -1,0 +1,28 @@
+{
+    "title": "Eyes on the Road",
+    "date": "2024",
+    "detail": "Eyes on the Road is your second set of eyes on the road for your electric scooter. No more looking back to see approaching cars, no more drivers turning you into a road pancake!",
+    "featured": false,
+    "awards": [],
+    "extended_details": "Eyes on the Road implements a 60GHz radar to detect objects behind the scooter, returning the distance to the object with precise millimeter measurements. The distance is relayed to a small display on the handlebars, and when the distance crosses a certain threshold, the scooter lights up with warning LEDs and displays a message on the display. On the handlebars, there are two buttons that controls the turn signal LEDs present on the scooter. The display, buttons, radar, and LED lights communicate with each other using the I2C protocol. ",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Jaehyun Lim"
+        },
+        {
+            "username": "",
+            "name": "David Chan"
+        },
+        {
+            "username": "",
+            "name": "Sam Leong"
+        },
+        {
+            "username": "",
+            "name": "Eddie Zhang"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00152.png"
+}

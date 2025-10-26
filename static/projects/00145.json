@@ -1,0 +1,119 @@
+{
+    "title": "Rubot",
+    "date": "2024",
+    "detail": "A Rubik's cube solver. Place the cube into the machine and watch it solve it.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "We wanted to get an introduction to a project involving electronics. The parts for the solver were 3D printed and assembled, we made a PCB board and we made a solving algorithm. The cube solver works by placing the cube on a tray which rotates, and a head that holds the cube in place and flicks upwards to rotate the cube. Both servos are controlled by a raspberry pi. The algorithm follows steps people can use to solve Rubik's cubes (specifically from https://rubiks-cube-solver.com/how-to-solve/) rather than a known cube solving algorithm. Eventually we ran into issues with connecting the raspberry pi to the CMU Wifi, so the solver is not functional.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Alice Tang"
+        },
+        {
+            "username": "",
+            "name": "Kaitlyn Vitkin"
+        },
+        {
+            "username": "",
+            "name": "Lilly Das"
+        },
+        {
+            "username": "",
+            "name": "Feya Epel"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "ANNIMOS 25KG Digital Servo Full Metal Gear High Torque",
+            "cost": 17.99,
+            "quantity": 4
+        },
+        {
+            "part": "20awg Wire",
+            "cost": 13.12,
+            "quantity": 1
+        },
+        {
+            "part": "Raspberry Pi Zero 2 W",
+            "cost": 29.99,
+            "quantity": 1
+        },
+        {
+            "part": "Header for Raspberry Pi (40 pin 2x20 male header)",
+            "cost": 8.99,
+            "quantity": 1
+        },
+        {
+            "part": "40 pin (2x20) female header",
+            "cost": 5.99,
+            "quantity": 1
+        },
+        {
+            "part": "1x8 female header",
+            "cost": 6.99,
+            "quantity": 1
+        },
+        {
+            "part": "4x3 male headers (90 deg)",
+            "cost": 6.4,
+            "quantity": 1
+        },
+        {
+            "part": "microSDHC 16GB",
+            "cost": 15.29,
+            "quantity": 1
+        },
+        {
+            "part": "PiCamera v1.3",
+            "cost": 9.49,
+            "quantity": 1
+        },
+        {
+            "part": "Arducam for Raspberry Pi Zero Cable",
+            "cost": 9.99,
+            "quantity": 1
+        },
+        {
+            "part": "Voltage Regulator",
+            "cost": 8.99,
+            "quantity": 1
+        },
+        {
+            "part": "USB Micro-B Breakout Board",
+            "cost": 5.27,
+            "quantity": 1
+        },
+        {
+            "part": "USB Type-C Breakout Board",
+            "cost": 8.99,
+            "quantity": 1
+        },
+        {
+            "part": "PLA filament",
+            "cost": 16.99,
+            "quantity": 1
+        },
+        {
+            "part": "Rubiks Cube",
+            "cost": 7.55,
+            "quantity": 1
+        },
+        {
+            "part": "Prototype Board",
+            "cost": 7.99,
+            "quantity": 1
+        },
+        {
+            "part": "M3x12 Cylindrical head screws",
+            "cost": 8.69,
+            "quantity": 1
+        },
+        {
+            "part": "M4x20 Cylindrical head screw",
+            "cost": 8.63,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00145.jpg"
+}

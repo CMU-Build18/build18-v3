@@ -1,0 +1,24 @@
+{
+    "title": "Coralbot",
+    "date": "2023",
+    "detail": "To address the various technicalities involved in water sampling in oceans and lakes, we intend to create an automated water sampling robotic system. This robot will be deployed into the ocean or lake through a buoy where it will float and gather various characteristics about the water such as the pH, salinity, and even carry a small water sample. Attached to the buoy will be a small retractable water pod containing the sensors and a 360 camera so scientists can remotely observe the aquatic environment with ease. Once the retractable arm is done gathering the measurements, it will autonomously navigate to the surface and deliver the sample. We propose the following plan for Build week: on Day 1, we intend to connect the sensors to the arduino and construct the buoy (will attach PVC pipes to provide additional stability). On Day 2, we will continue to construct the sensor pod and ensure it is water proof while also testing the transmitter and receiver. On Day 3, we will attach the sensor pod to the buoy using the tether/data line and check if it floats with the additional weight. In the remaining days before Demonstration Day, we will continue testing and refining the system in the RI pool and make any required final adjustments.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Tyler Harp"
+        },
+        {
+            "username": "",
+            "name": "Ankita Kalkar"
+        },
+        {
+            "username": "",
+            "name": "Michaela Tecson"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00182.png"
+}

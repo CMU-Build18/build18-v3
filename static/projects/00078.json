@@ -1,0 +1,82 @@
+{
+    "title": "CheGoChe",
+    "date": "2022",
+    "detail": "Unbored by Broad Board-er-less Board Games",
+    "extended_details": "An automated Go Board with Computer Vision and automated game logic. Made to add and remove pieces autonomously as dictated by the game rules, enabling remote play, playing against AI and more!",
+    "team_profiles": [
+        {
+            "username": "@rbasdeo",
+            "name": "@rbasdeo"
+        },
+        {
+            "username": "@juanluiv",
+            "name": "@juanluiv"
+        },
+        {
+            "username": "@akyu",
+            "name": "@akyu"
+        },
+        {
+            "username": "@qiuxiand",
+            "name": "@qiuxiand"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Stepper Motor Driivers",
+            "cost": "$5.95",
+            "quantity": "\n",
+            "total": "2"
+        },
+        {
+            "part": "Web Cam",
+            "cost": "$25.00",
+            "quantity": "\n",
+            "total": "1"
+        },
+        {
+            "part": "Power Supply",
+            "cost": "$30.00",
+            "quantity": "\n",
+            "total": "1"
+        },
+        {
+            "part": "1/4 In MDF Wood Chipboard Sheets for Crafts, Engraving, Painting",
+            "cost": "$17.00",
+            "quantity": "\n",
+            "total": "1"
+        },
+        {
+            "part": "Step down voltage converter",
+            "cost": "$10.99",
+            "quantity": "\n",
+            "total": "1"
+        },
+        {
+            "part": "Timing Belt",
+            "cost": "$15.00",
+            "quantity": "\n",
+            "total": "1"
+        },
+        {
+            "part": "M3 Screws",
+            "cost": "$5.99",
+            "quantity": "\n",
+            "total": "2"
+        },
+        {
+            "part": "PLA Filament",
+            "cost": "$20.59",
+            "quantity": "\n",
+            "total": "1"
+        },
+        {
+            "part": "M3 Nuts",
+            "cost": "$5.49",
+            "quantity": "\n",
+            "total": "1"
+        }
+    ],
+    "image": "/project-images/00078.jpg",
+    "features": []
+}

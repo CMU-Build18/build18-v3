@@ -1,0 +1,28 @@
+{
+    "title": "Piano-mobile",
+    "date": "2023",
+    "detail": "Make a \"vehicle\" that moves when you \"successfully\" play Vanessa Carlton's song, A Thousand Miles, on a piano.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Kevin Song"
+        },
+        {
+            "username": "",
+            "name": "Catherine Cai"
+        },
+        {
+            "username": "",
+            "name": "Carlos Sanchez"
+        },
+        {
+            "username": "",
+            "name": "Joseph Hsu"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00188.png"
+}

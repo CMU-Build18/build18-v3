@@ -1,0 +1,83 @@
+{
+    "title": "Chatfish",
+    "date": "2024",
+    "detail": "If you cannot make friends during 0 week or have goldfish memory when it come to putting names to faces, use Chatfish to make ends meet. ",
+    "featured": false,
+    "awards": [],
+    "extended_details": "\"\"\"Chatfish\"\" is an innovative project for new students, using a Raspberry Pi 4 Model B, camera, and microphone for facial recognition and interaction. It aims to ease social awkwardness by remembering faces and names, and facilitating engaging conversations in the initial school week. Key concepts include facial recognition, text-to-speech, speech-to-text, text-to-text, and language models. Our team efficiently integrated these concepts during the build week, optimizing algorithms and fine-tuning systems for Chatfish to generate engaging responses.\n\nBehind Chatfish\u2019s conversation engine are three components: a local speech recognition model, a local instruction-tuned LLM, and a text-to-speech API. We use whisper.cpp, an efficient port of OpenAI\u2019s whisper model. We use a 4-bit quantized C++ port of Meta\u2019s llama2-7b-chat model to generate text on-device and the converted gguf format weights and code from the llama-cpp project, which is built on the efficient ggml framework - this allows us to run full inference of a large transformer model with only 8GB of RAM. To convert text into speech, we use the ElevenLabs API.\n\nThe project achieved its goals:\n- Facial Recognition: Chatfish recognizes known and unknown faces.\n- Interactive Conversations: It responds effectively, facilitating smooth interactions.\n- Engagement: Chatfish's ability to speak and listen reduces intimidation.\n- Personalization: Remembering faces and names creates a welcoming experience.\n\"",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Gina Seo "
+        },
+        {
+            "username": "",
+            "name": "Gio"
+        },
+        {
+            "username": "",
+            "name": "Justin"
+        },
+        {
+            "username": "",
+            "name": "Dylan"
+        },
+        {
+            "username": "",
+            "name": "Aaron"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "10 Pcs Servo Motor",
+            "cost": 18.77,
+            "quantity": 1
+        },
+        {
+            "part": "Camera module",
+            "cost": 19.99,
+            "quantity": 1
+        },
+        {
+            "part": "Raspberry Pi Zero",
+            "cost": 24.99,
+            "quantity": 1
+        },
+        {
+            "part": "Mountable Fish",
+            "cost": 58.07,
+            "quantity": 1
+        },
+        {
+            "part": "Speaker",
+            "cost": 7.68,
+            "quantity": 2
+        },
+        {
+            "part": "Microphone",
+            "cost": 18.39,
+            "quantity": 2
+        },
+        {
+            "part": "Fish head",
+            "cost": 22.09,
+            "quantity": 1
+        },
+        {
+            "part": "SanDisk 128GB Extreme microSDXC UHS-I Memory Card with Adapter - Up",
+            "cost": 19.99,
+            "quantity": 1
+        },
+        {
+            "part": "CanaKit 3.5A Raspberry Pi 4 Power Supply (USB-C)",
+            "cost": 9.99,
+            "quantity": 1
+        },
+        {
+            "part": "Raspberry Pi 4 Computer Model B 8GB Single Board Computer Suitable",
+            "cost": 79.9,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00167.jpg"
+}

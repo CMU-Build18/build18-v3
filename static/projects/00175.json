@@ -1,0 +1,53 @@
+{
+    "title": "Keraunos ",
+    "date": "2024",
+    "detail": "Watch our fully autonomous drones see red and follow anyone wearing red! Also see our coordinated drone swarm from hacked toy drones!",
+    "featured": false,
+    "awards": [],
+    "extended_details": "Hacked the toy drone remotes with Arduino, used python to stream video input of drones to perform live YOLO image detection.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Riyaz Ahuja "
+        },
+        {
+            "username": "",
+            "name": "Kaloyan Stefanov"
+        },
+        {
+            "username": "",
+            "name": "Alexa Lowe"
+        },
+        {
+            "username": "",
+            "name": "Arturo Paras "
+        },
+        {
+            "username": "",
+            "name": "Jose Cestero "
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "DEERC Mini Drone",
+            "cost": 50,
+            "quantity": 3
+        },
+        {
+            "part": "Laser pointer",
+            "cost": 18.99,
+            "quantity": 1
+        },
+        {
+            "part": "Arduino Uno",
+            "cost": 32,
+            "quantity": 3
+        },
+        {
+            "part": "wifi card",
+            "cost": 35,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00175.jpg"
+}

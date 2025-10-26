@@ -1,0 +1,24 @@
+{
+    "title": "A.N.T. (Automated Nerf Turret)",
+    "date": "2024",
+    "detail": "A.N.T. is a nerf turret with object detection and tracking. It can be trained to track whatever you want even some earbuds. ",
+    "featured": false,
+    "awards": [],
+    "extended_details": "A.N.T. was as the name suggests supposed to be an automated nerf turret which would recognize an object it was trained to recognize, track it, and shoot it once the object was in the center of its view. The body of the turret was printed with black PLA.The movement of the turret such as the tilt up and down and the pan was handled by 2 servos.The image recognition was handled by a special camera module while the program which took in data from the module and controlled the servos was handled by a Raspberry Pi. Two motors made up a flywheel that darts could be pushed into, and the pushing was meant to be done using a solenoid and a metal pin but during build week the solenoid fell apart. So the overall final outcome was a turret which did track an object that it was trained on but could not shoot. ",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Felipe Perotti"
+        },
+        {
+            "username": "",
+            "name": "Daniel Lin"
+        },
+        {
+            "username": "",
+            "name": "Vuyani Saige"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00153.png"
+}

@@ -1,0 +1,19 @@
+{
+    "title": "LED Paintbrush",
+    "date": "2021",
+    "detail": "Paint a picture in the air with a brush made of LEDs!",
+    "extended_details": "This project takes an image and recreates it on a paintbrush you control by dragging it through the air! Swipe the brush to display the image in the air in front of your eyes!",
+    "team_profiles": [
+        {
+            "username": "@ryano",
+            "name": "@ryano"
+        },
+        {
+            "username": "@bhung",
+            "name": "@bhung"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00001.jpg",
+    "features": []
+}

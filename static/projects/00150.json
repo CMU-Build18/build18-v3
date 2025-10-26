@@ -1,0 +1,68 @@
+{
+    "title": "Rob (Self-Driving RC Car)",
+    "date": "2024",
+    "detail": "Car drives itself through an Arduino, ultrasonic sensor, and an algorithm to avoid objects and drive through obstacles.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "We disassembled the RC controller that came with the car, wired our Arduino into it, and sent commands through the Arduino to thereby control the car. Originally, we had planned to use a Jetson Nano, but since we encountered power supply issues with the Jetson, we decided to switch to an Arduino. Since we moved from Jetson Nano to Arduino, we also moved from camera to ultrasonic sensor since the Arduino has much, much less computing power. We also encountered issues with the LiDAR sensor, which we wouldn't be able to use with an Arduino anyways.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Aidan Lincke"
+        },
+        {
+            "username": "",
+            "name": "David Gelody"
+        },
+        {
+            "username": "",
+            "name": "Josh Samulak"
+        },
+        {
+            "username": "",
+            "name": "Patrick Lucas"
+        },
+        {
+            "username": "",
+            "name": "Bryce Casey"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "RC Car",
+            "cost": 69.99,
+            "quantity": 14
+        },
+        {
+            "part": "LiDAR sensor",
+            "cost": 79.2,
+            "quantity": 14
+        },
+        {
+            "part": "Wifi/Bluetooth module",
+            "cost": 21.99,
+            "quantity": 1
+        },
+        {
+            "part": "MicroSD card (128 GB)",
+            "cost": 10.5,
+            "quantity": 1
+        },
+        {
+            "part": "Camera",
+            "cost": 17.59,
+            "quantity": 1
+        },
+        {
+            "part": "Case for Nano and Camera",
+            "cost": 14.91,
+            "quantity": 1
+        },
+        {
+            "part": "GPS chip",
+            "cost": 12.99,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00150.png"
+}

@@ -1,0 +1,28 @@
+{
+    "title": "Matless DDR",
+    "date": "2024",
+    "detail": "We engineered a matless version of Dance Dance Revolution with\ntwo play options: one featuring a center-mounted LIDAR and the\nother utilizing a set of arcade buttons.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "The primary objective of our project was to create a more accessible version of arcade\ngames like Dance Dance Revolution. We aimed to eliminate the need for space-inefficient\narcade machines, enabling people to enjoy Dance Dance Revolution without making a\npurchase. To achieve a \u2019matless\u2019 experience, we incorporated a 360-degree rotating LIDAR\nsensor. This sensor captures the player\u2019s foot movement, interpreting their location as\ninput for the game.\nIn addition to the LIDAR sensor, we implemented an alternative play option using arcade\nbuttons. Utilizing arcade buttons from Adafruit, this second play option includes buttons\nthat light up upon presses, with each press interpreted as input to the game. This dual-play\napproach also allows for a two-player mode. We employed a Raspberry Pi 4 (RPI4) to\nmanage both the arcade buttons and the LIDAR sensor, collecting data seamlessly.\nFor the game interface, we utilized an open-source Dance Dance Revolution (DDR) platform,\nenhancing the play experience by implementing additional song options. The RPI4 served\nas the central hub for collecting data from both the arcade buttons and the LIDAR sensor,\nensuring smooth integration and operation.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Bill Nace"
+        },
+        {
+            "username": "",
+            "name": "Sun A Cho"
+        },
+        {
+            "username": "",
+            "name": "Yu Ching Wu"
+        },
+        {
+            "username": "",
+            "name": "Alena Lu"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00135.png"
+}

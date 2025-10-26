@@ -1,0 +1,28 @@
+{
+    "title": "BuildGCC",
+    "date": "2023",
+    "detail": "The goal of this project is to build a better GameCube Controller (GCC). The GCC, which came out over two decades ago, is still commonly used around the world to play Super Smash Brothers. However, there are many issues with the controller's design that lead to inconsistent inputs, which can be very frustrating for competitive play. A recent project called PhobGCC has explored the use of custom hardware and software to improve the reliability of the controller. This Build18 project will attempt to build upon the PhobGCC's design, exploring the use of Hall effect sensors and Kalman filtering to improve the controller's performance. And hopefully, more folks at CMU will learn a bit about Smash, too!",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Brandon Joel Gonzalez"
+        },
+        {
+            "username": "",
+            "name": "Perrin Tong"
+        },
+        {
+            "username": "",
+            "name": "Aanya Rustogi"
+        },
+        {
+            "username": "",
+            "name": "Nadia Palar"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00179.png"
+}

@@ -1,0 +1,32 @@
+{
+    "title": "Calorie-Expending Machine",
+    "date": "2023",
+    "detail": "Our project is to design a vending machine that encourages people to exercise. The vending machine will allow you to select a drink/food item, then require you to do some exercise proportional to the amount of calories in the item you chose. It will use CV to detect some basic exercises, like burpees or jumping jacks. Only after completing the exercises will the item be dispensed.  The user will pay the vending machine using Venmo and select an item, and the vending machine will then determine the number of calories the user needs and dispense the product as the user performs their exercises. The motivation behind is sometimes people feel guilty of eating vending machine food due to high calories. This vending machine makes users do exercises to consume the calories, and at the same time our user can have some fun doing exercises.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Nicholas Murolo"
+        },
+        {
+            "username": "",
+            "name": "Yan-Kai Huang"
+        },
+        {
+            "username": "",
+            "name": "Minghan Gang"
+        },
+        {
+            "username": "",
+            "name": "Valmiki Kothara"
+        },
+        {
+            "username": "",
+            "name": "Henry Yi"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00180.png"
+}

@@ -1,0 +1,62 @@
+{
+    "title": "Servo Music",
+    "date": "2024",
+    "detail": "Stepper motors programmed to make music.",
+    "featured": false,
+    "awards": [
+        "NSA Best Project Award"
+    ],
+    "extended_details": "Uses stepper motors to produce musical sounds and rhythms by manipulating their movement. ",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Mahlet Mesfin"
+        },
+        {
+            "username": "",
+            "name": "Daniel Zhu"
+        },
+        {
+            "username": "",
+            "name": "Andrew Yang"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Stepper motors",
+            "cost": 29.99,
+            "quantity": 2
+        },
+        {
+            "part": "CNC shield",
+            "cost": 10.99,
+            "quantity": 3
+        },
+        {
+            "part": "Arduino uno from elegoo",
+            "cost": 13.59,
+            "quantity": 3
+        },
+        {
+            "part": "Acrylic",
+            "cost": 7.5,
+            "quantity": 1
+        },
+        {
+            "part": "16 AWG wire set",
+            "cost": 31.5,
+            "quantity": 1
+        },
+        {
+            "part": "12V 6A power supply",
+            "cost": 11.19,
+            "quantity": 2
+        },
+        {
+            "part": "T-MOTOR V2207 V3.0 KV1750 ",
+            "cost": 14.59,
+            "quantity": 4
+        }
+    ],
+    "image": "/project-images/00169.jpg"
+}

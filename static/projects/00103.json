@@ -1,0 +1,88 @@
+{
+    "title": "Tanner's Screaming Orbs",
+    "date": "2024",
+    "detail": "Have you ever felt guilty about dropping a juggling ball? Would you like to?",
+    "extended_details": "The purpose of this project is to build three juggling balls that scream in pain when you drop them. This is intended to improve the user\u2019s juggling ability by making them feel guilty when they drop the juggling balls. Parts were used carefully. We used an IMU in a microcontroller to detect the acceleration of the juggling ball. When the ball acceleration hit a certain threshold, we triggered the soundboard screaming. Physical parts were created using 3D printer and sewing, and electronic connections were soldered. We made four juggling balls and a demo breadboard.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Ryan Bao"
+        },
+        {
+            "username": "",
+            "name": "JC Yordy"
+        },
+        {
+            "username": "",
+            "name": "Tanner Aikens"
+        },
+        {
+            "username": "",
+            "name": "Freda Su"
+        },
+        {
+            "username": "",
+            "name": "Juno Hoffman"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Gatorade Powder",
+            "cost": 4.99,
+            "quantity": 4
+        },
+        {
+            "part": "Box of Fruit Snacks",
+            "cost": 7.58,
+            "quantity": 1
+        },
+        {
+            "part": "Box of Pringles",
+            "cost": 12.33,
+            "quantity": 1
+        },
+        {
+            "part": "Box of Pop Corners",
+            "cost": 18.32,
+            "quantity": 1
+        },
+        {
+            "part": "JST Connectors",
+            "cost": 9.99,
+            "quantity": 1
+        },
+        {
+            "part": "Zippers",
+            "cost": 5.99,
+            "quantity": 1
+        },
+        {
+            "part": "Seeed Sense",
+            "cost": 15.99,
+            "quantity": 5
+        },
+        {
+            "part": "Adafruit sound board",
+            "cost": 14.95,
+            "quantity": 5
+        },
+        {
+            "part": "Speaker / Amplifier combo",
+            "cost": 5.95,
+            "quantity": 5
+        },
+        {
+            "part": "3.7V lipo",
+            "cost": 6.95,
+            "quantity": 3
+        }
+    ],
+    "awards": [
+        "Varun's Spicy Award"
+    ],
+    "built18": false,
+    "image": "/project-images/00103.jpg",
+    "features": [
+        "Varun\u2019s Spicy Award"
+    ]
+}

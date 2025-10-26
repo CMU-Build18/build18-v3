@@ -1,0 +1,68 @@
+{
+    "title": "Smart Bottle Compressor",
+    "date": "2024",
+    "detail": "A smart trash bin that could recognize if the trash is a plastic bottle, compress it and then sort it.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "The smart bottle compressor is designed to reduce the space occupied by plastic bottles. By capturing the images using the camera and send it to the computer using arduino, we use a deep learning model to recognize if the trash thrown is a plastic bottle or not. If yes, use the servo driven pusher to compress the bottle and sort it into the recycle bin. We did finish training the model, build a overall structure of the bins and the compressor, but the 3d printed pusher part (which we got it Sunday afternoon) were not able to put together with the structure.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Joyce Zhu"
+        },
+        {
+            "username": "",
+            "name": "Xi Kang"
+        },
+        {
+            "username": "",
+            "name": "Siyi Tang"
+        },
+        {
+            "username": "",
+            "name": "Yida Lu"
+        },
+        {
+            "username": "",
+            "name": "Hanning Wu"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Arduino Uno REV3",
+            "cost": 24.84,
+            "quantity": 1
+        },
+        {
+            "part": "Arducam Camera Module V3 with Autofocus",
+            "cost": 24.95,
+            "quantity": 1
+        },
+        {
+            "part": "High Torque Servo",
+            "cost": 42.95,
+            "quantity": 4
+        },
+        {
+            "part": "EBL 4-Pack Li-ion 9 Volt Rechargeable Batteries with 9V Battery Charger",
+            "cost": 25.99,
+            "quantity": 1
+        },
+        {
+            "part": "CHANZON UL Wires 5 Pack 9v Battery Power Supply Jack",
+            "cost": 6.99,
+            "quantity": 2
+        },
+        {
+            "part": "CHANZON UL Wires 5 Pack 9v Battery Power Supply Jack",
+            "cost": 6.29,
+            "quantity": 1
+        },
+        {
+            "part": "TechSpark (3D printing) and other supplies",
+            "cost": 32.15,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00156.png"
+}

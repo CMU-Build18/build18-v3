@@ -1,0 +1,78 @@
+{
+    "title": "Jiggle-Jiggle Box",
+    "date": "2024",
+    "detail": "A box that jiggles. It also play music.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "Purpose: to make playing music a more engaging experience by the inclusion of ferrofluid that dances to your favorite songs.\n\nHow the parts were used: The ESP-32 receives bluetooth signals from a mobile phone, analyzes the signal, and makes a ferrofluid oscillate to the music as per the song. It does so by generating a regular pattern of electromagnetic pulses, whilst also lighting up a NeoPixel LED marquee that provides artistic flair and ambient lighting. Concurrently, the ESP-32 controls transducers that play the music.\n\nImplementation: Audio amplifiers and transformers were used to guarantee good sound quality and overall design safety. The entire circuitry was bounded in a custom made bounding box.\n\nOverall Outcome: A custom designed box with a window to view the dancing ferrofluid and 2 outlets for the speaker. Box internally lined with LEDs, with the names of all builders engraved on the top-side opening of the box. Upon playing a song, the LEDs and ferrofluid instantaneously pulsate, and respond to stops and \"beat drops\" in the song.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Arnav Sabharwal"
+        },
+        {
+            "username": "",
+            "name": "Ethan Lu"
+        },
+        {
+            "username": "",
+            "name": "Victor Zayakov"
+        },
+        {
+            "username": "",
+            "name": "Petros Emmanouilidis"
+        },
+        {
+            "username": "",
+            "name": "Yuqi Gong"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "FerroFluid Bottle 2ml",
+            "cost": 21.99,
+            "quantity": 1
+        },
+        {
+            "part": "ESP32 Microcontroller",
+            "cost": 9.99,
+            "quantity": 1
+        },
+        {
+            "part": "Electromagnet 24V",
+            "cost": 39.99,
+            "quantity": 1
+        },
+        {
+            "part": "RGB LED Strip 60/m, 1m Option",
+            "cost": 26.95,
+            "quantity": 1
+        },
+        {
+            "part": "Sound Transducers 4 \u03a9",
+            "cost": 47.99,
+            "quantity": 1
+        },
+        {
+            "part": "Audio amplifier 24V",
+            "cost": 10.77,
+            "quantity": 1
+        },
+        {
+            "part": "Power supply 24V",
+            "cost": 16.99,
+            "quantity": 1
+        },
+        {
+            "part": "24V to 5V Converters (pack of 2)",
+            "cost": 14.99,
+            "quantity": 1
+        },
+        {
+            "part": "Laser Cuttable Wood Plywood 1/8 inch",
+            "cost": 3,
+            "quantity": 6
+        }
+    ],
+    "image": "/project-images/00147.png"
+}

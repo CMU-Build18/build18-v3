@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title property="title" content="Build18"> Build18 </title>
+    <meta property="og:title" content="Build18" />
+    <meta property="og:description"
+        content="Build18 is where creativity, curiosity and engineering intersect at Carnegie Mellon University. Build with us!" />
+    <meta property="og:image" content="https://i.imgur.com/eEUMNEZ.png" />
+    %sveltekit.head%
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body data-sveltekit-preload-data="hover">
+    <div class="absolute top-0 left-0 w-full h-full z-[-1]">
+        <img src="/build18-breadboard.svg" alt="Breadboard SVG" class="w-full h-full object-cover" />
+    </div>
+    <div class="content px-4">
+        <div class="text-center">
+            <p
+                class="text-6xl md:text-9xl font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.purple.400),theme(colors.purple.100),theme(colors.pink.300),theme(colors.orange.400),theme(colors.pink.300),theme(colors.purple.100),theme(colors.purple.400))] bg-[length:200%_auto] animate-gradient">
+                Status: %sveltekit.status%
+            </p>
+            <br />
+            <p
+                class="text-3xl md:text-4xl font-extrabold bg-clip-text text-transparent bg-[linear-gradient(to_right,theme(colors.purple.400),theme(colors.purple.100),theme(colors.pink.300),theme(colors.orange.400),theme(colors.pink.300),theme(colors.purple.100),theme(colors.purple.400))] bg-[length:200%_auto] animate-gradient">
+                Message: %sveltekit.error.message%
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

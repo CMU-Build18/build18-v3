@@ -1,0 +1,20 @@
+{
+    "title": "Mini Maglev",
+    "date": "2023",
+    "detail": "Our Build18 project is a miniature maglev train. Maglev trains are high speed trains that use electromagnets to levitate above the track. They tend to be faster and more efficient than normal trains. Our project would involve creating a miniature maglev train that would travel on a track within a 4\u2019 x 6\u2019 region. Our train will be able to start at the train station, stop at several destinations, and stop when a user presses an emergency stop button. The region around the track is inspired by Pittsburgh, and the train will pass several well known locations, like Tepper and The Cathedral of Learning. ",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Tiara Rathi"
+        },
+        {
+            "username": "",
+            "name": "Hirani Sattenapalli"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00190.png"
+}

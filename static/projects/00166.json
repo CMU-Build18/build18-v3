@@ -1,0 +1,80 @@
+{
+    "title": "BAN'D",
+    "date": "2024",
+    "detail": "BAN'D is a real time alarm system as a bracelet for use during emergency situations, particularly geared toward sexual assault.",
+    "featured": false,
+    "awards": [
+        "MSA Best Project Award"
+    ],
+    "extended_details": "BAN'D is a real time alarm system as a bracelet for use during emergency situations, particularly geared toward sexual assault. The bracelets functions are activated with buttons on the bracelet and includes features such as location tracking and calling authorities/emergency contacts. While there are similar bracelets that exist, our model is far cheaper for consumers, has a unique customizable bracelet, and is very convenient to access.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Megha Jasti"
+        },
+        {
+            "username": "",
+            "name": "Isabel Wu"
+        },
+        {
+            "username": "",
+            "name": "Vidisha Chopra"
+        },
+        {
+            "username": "",
+            "name": "Donya Gharachorloo"
+        },
+        {
+            "username": "",
+            "name": "Ishan Kapoor"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Bluetooth Chip",
+            "cost": 3.1,
+            "quantity": 1
+        },
+        {
+            "part": "Metal Casing Upper",
+            "cost": 0,
+            "quantity": 1
+        },
+        {
+            "part": "Buttons/ tactile switch",
+            "cost": 0,
+            "quantity": 2
+        },
+        {
+            "part": "Metal Casing Lower",
+            "cost": 0,
+            "quantity": 1
+        },
+        {
+            "part": "Wiring",
+            "cost": 8.48,
+            "quantity": 1
+        },
+        {
+            "part": "Power Source",
+            "cost": 6.8,
+            "quantity": 1
+        },
+        {
+            "part": "Tracking Chip (?)",
+            "cost": 2.99,
+            "quantity": 1
+        },
+        {
+            "part": "Button Switches",
+            "cost": 0.66,
+            "quantity": 1
+        },
+        {
+            "part": "Hot Glue Gun",
+            "cost": 9.29,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00166.png"
+}

@@ -1,0 +1,32 @@
+{
+    "title": "Da Vinci's Hand",
+    "date": "2024",
+    "detail": "Supposed to be a robotic arm that as able to draw an image on a\npiece a paper.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "The project\u2019s original purpose was using a ML, specifically a canny Edge model to create a drawing that a robotic arm can draw. Then creating almost a list of points that the robotic arm would then draw to. It would do this by moving on a sliding plate and would have around 5 degrees of freedom. What was actually done during build week was 3d printing most of the materials realizing that a lot of stuff didn\u2019t fit because I suck at cadding. The canny edge model and vectorization does work along with an image generating AI, that\u2019s hosted on a raspberry pi, However, our project ended looking like a jumbled mess of 3d printed parts and us wasting money printing some of them at tech spark.\n",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Justin Bell"
+        },
+        {
+            "username": "",
+            "name": "David"
+        },
+        {
+            "username": "",
+            "name": "david z"
+        },
+        {
+            "username": "",
+            "name": "Sean Johsnon"
+        },
+        {
+            "username": "",
+            "name": "Charlie Ai"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00143.png"
+}

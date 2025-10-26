@@ -1,0 +1,36 @@
+{
+    "title": "Robot Bartender",
+    "date": "2023",
+    "detail": "We are making a robot bartender! :D This robot will have a line of dispenser spouts where alcohol bottles could be inverted and mounted onto, platform where a cup is shifted under different spouts, and will be controlled according to preprogrammed cocktail recipes. ",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Rita Zhang"
+        },
+        {
+            "username": "",
+            "name": "Mae Zhang"
+        },
+        {
+            "username": "",
+            "name": "Iris Dong"
+        },
+        {
+            "username": "",
+            "name": "Divya Aggarwal"
+        },
+        {
+            "username": "",
+            "name": "Serena Ying"
+        },
+        {
+            "username": "",
+            "name": "Ting Hsu"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00186.png"
+}

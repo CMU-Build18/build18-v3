@@ -1,0 +1,45 @@
+{
+    "title": "FPGABoy",
+    "date": "2024",
+    "detail": "Gameboy in Verilog on FPGA",
+    "featured": false,
+    "awards": [],
+    "extended_details": "Nintendo Gameboy in SystemVerilog on FPGA",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Noah Gaertner"
+        },
+        {
+            "username": "",
+            "name": "M Nguyen"
+        },
+        {
+            "username": "",
+            "name": "Jon Recta"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "FPGA",
+            "cost": 0,
+            "quantity": 2
+        },
+        {
+            "part": "Screen",
+            "cost": 0,
+            "quantity": 2
+        },
+        {
+            "part": "Cables",
+            "cost": 0,
+            "quantity": 1
+        },
+        {
+            "part": "NVIDIA Jetson",
+            "cost": 0,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00173.jpg"
+}

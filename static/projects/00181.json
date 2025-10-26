@@ -1,0 +1,32 @@
+{
+    "title": "Chess Moves for Itself",
+    "date": "2023",
+    "detail": "We are building a chess board where a human plays against an AI. While the human physically moves their chess pieces like in a typical game of chess, the AI moves the pieces without any human intervention \u2014 each piece is moved via an electromagnet attached to a gantry. A low-power circuit underneath the board keeps track of which pieces are where, including tracking the human\u2019s moves. \u201cChess Moves for Itself\u201d.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Matt Ngaw"
+        },
+        {
+            "username": "",
+            "name": "Casper Wong"
+        },
+        {
+            "username": "",
+            "name": "Nathaniel Marquez"
+        },
+        {
+            "username": "",
+            "name": "Nate Zhu"
+        },
+        {
+            "username": "",
+            "name": "Christopher Porco"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00181.png"
+}

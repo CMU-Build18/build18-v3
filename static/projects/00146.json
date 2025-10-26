@@ -1,0 +1,98 @@
+{
+    "title": "Ping Pong Pickerupper",
+    "date": "2024",
+    "detail": "You'll never need to bend over again to pick up your balls because this robot will do it for you!",
+    "featured": false,
+    "awards": [],
+    "extended_details": "Ping Pong Pickerupper is a robot that picks up ping pong balls. On the hardware side, the robot uses a 4-motor holonomic drive system with an intake, a 2D lidar for Simultaneous Localization and Mapping (SLAM), and a camera for ball detection. Additionally, there are smaller components like L298N motor drivers, 9V batteries, and a power bank. All of the casing is laser cut wood, and finally, the robot's processing is powered by a Raspberry Pi 4.\n\nOn the Raspberry Pi, the operating system is Ubuntu 20.04, and the software being run uses Robot Operating System (ROS), which provides a framework for developing nodes for any aspect of the robot's actions. More information about the main nodes and what they do / how they work are below.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Andrew Yu"
+        },
+        {
+            "username": "",
+            "name": "Andrew Liu"
+        },
+        {
+            "username": "",
+            "name": "Tom Tang"
+        },
+        {
+            "username": "",
+            "name": "Andrew Cheng"
+        },
+        {
+            "username": "",
+            "name": "Steven Guo"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Arduino Nano 33 BLE Sense",
+            "cost": "34.80",
+            "quantity": 1
+        },
+        {
+            "part": "Raspberry Pi 4 ",
+            "cost": "61.51",
+            "quantity": 1
+        },
+        {
+            "part": "Raspberry Pi Camera 3",
+            "cost": "25.00",
+            "quantity": 1
+        },
+        {
+            "part": "Slamtec RPLIDAR A1",
+            "cost": "79.20",
+            "quantity": 1
+        },
+        {
+            "part": "DC Motors and Mecanum wheels",
+            "cost": "15.90",
+            "quantity": 1
+        },
+        {
+            "part": "Zip Ties ",
+            "cost": "3.19",
+            "quantity": 1
+        },
+        {
+            "part": "Rubber Bands",
+            "cost": "1.79",
+            "quantity": 1
+        },
+        {
+            "part": "Ping pong balls",
+            "cost": "19.95",
+            "quantity": 1
+        },
+        {
+            "part": "Gorilla Glue ",
+            "cost": "5.64",
+            "quantity": 1
+        },
+        {
+            "part": "Gears kit",
+            "cost": "7.29",
+            "quantity": 1
+        },
+        {
+            "part": "Axles",
+            "cost": "6.99",
+            "quantity": 1
+        },
+        {
+            "part": "Axle Sleeves",
+            "cost": "7.99",
+            "quantity": 1
+        },
+        {
+            "part": "Motor Driver Controller Board",
+            "cost": "9.99",
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00146.jpg"
+}

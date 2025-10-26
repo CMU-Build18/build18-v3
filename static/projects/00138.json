@@ -1,0 +1,28 @@
+{
+    "title": "ECE Starter Pokemon ",
+    "date": "2024",
+    "detail": "18-100 ECE LAB kit that follows you around",
+    "featured": false,
+    "awards": [],
+    "extended_details": "We had three plans on making a ECE lab kit that follows us. 1) one ultrasonic sensor\nfor distance and two IR sensors for direction. 2) three ultrasonic sensors. 3) Bluetooth\ncontrolled car. During build week, we went with plan two and used three ultrasonic sensors\nto sense distance and direction. We also worked on the bluetooth module to make our lab\nkit remote-controlled, but we couldn\u2019t get the bluetooth module to work with the app.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Jason Lee"
+        },
+        {
+            "username": "",
+            "name": "Siena Lee"
+        },
+        {
+            "username": "",
+            "name": "Corin Cho"
+        },
+        {
+            "username": "",
+            "name": "Sophia Fu"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00138.png"
+}

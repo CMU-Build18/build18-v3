@@ -1,0 +1,65 @@
+{
+    "title": "Sheer Highlight Attack",
+    "date": 2024,
+    "detail": "Mecanum wheel reconnaissance drone used to follow reflective vest wearing individual with depth detection avoidance. ",
+    "featured": false,
+    "awards": [],
+    "extended_details": "The purpose of this project was originally to create a two wheel recon drone that could detect objects and follow a person around unhindered. We then changed our design to be a four wheel mecanum robot which would allow for more space in the center for components and side to side movement and drifting capabilities. Our design then changed again when one of our encoders was broken so instead of a motor controller/ROS system, we switched to using a FeatherWing and just the Jetson Nano. Our robot uses an algorithm to detect someone wearing a bright fluorescent vest by first masking an image based off of a lower/higher threshold of some highlight color, then gray scaling it, then running cv2 contours to grab what remains and get the maximum size in a bounding box and then adjust for the height and width of the target. Overall there were many design changes and tribulations we had to overcome, resulting in almost every night late in Techspark and Robo Club, but even if it doesn't do all its intended goals perfectly, we, as a team, are very proud of what we created. ",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Zoe White"
+        },
+        {
+            "username": "",
+            "name": "Ruslana Fogler"
+        },
+        {
+            "username": "",
+            "name": "Melinda Chen"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Jetson Nano Binocular Kit -- comes with Jetson Nano, IMX waveshare camera, other cables",
+            "cost": 235.99,
+            "quantity": 1
+        },
+        {
+            "part": "Wifi USB Adaptor",
+            "cost": 12.99,
+            "quantity": 1
+        },
+        {
+            "part": "Motor Controller Board",
+            "cost": 24.15,
+            "quantity": 1
+        },
+        {
+            "part": "Highlight Vest",
+            "cost": 9.95,
+            "quantity": 1
+        },
+        {
+            "part": "LCD Screen",
+            "cost": 46.32,
+            "quantity": 1
+        },
+        {
+            "part": "Mecanum Wheel Kit",
+            "cost": 89.99,
+            "quantity": 1
+        },
+        {
+            "part": "Lithium Battery",
+            "cost": 13.99,
+            "quantity": 1
+        },
+        {
+            "part": "RGB strips",
+            "cost": 17.95,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00159.jpg"
+}

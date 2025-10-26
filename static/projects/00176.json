@@ -1,0 +1,63 @@
+{
+    "title": "Braille18",
+    "date": "2024",
+    "detail": "A modular text-to-braille display specially designed for children learning braille. It uses character recognition and a solenoid array to immediately go from a page of text to a tactile braille display that is large and easily readable by little fingers!",
+    "featured": false,
+    "awards": [],
+    "extended_details": "\"The aim of this project was a cheap text-to-braille display, compared to the more expensive displays common on the market, aimed at children who don't have the fine motor control to effectively read most commercial displays.\nIt uses OCR to scan and parse a page of text into a string, then converts it into display-sized chunks and translates to braille. This braille is then outputed to the display mechanism.\nThe display consists of an array of solenoids, arranged in blocks of braille characters. The blocks are entirely modular - each can be hooked directly onto the end of the last block, snapping into place mechanically and linking to the next one. Electrically, the modular nature is achieved by having data outputed on a serial line so each block only needs to be connected to the previous one.\nThe project is partially functional - all the components work, but the very high power draw of the solenoid array means it heats up extremely quickly, so can not be run for long periods of time without the risk of burning something out, and any attempts to limit current mean the large number of solenoids don't have enough power to run.\"",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Gyanepsaa Singh"
+        },
+        {
+            "username": "",
+            "name": "Chloe Poon"
+        },
+        {
+            "username": "",
+            "name": "Maggie Gong"
+        },
+        {
+            "username": "",
+            "name": "Yilu Huang"
+        },
+        {
+            "username": "",
+            "name": "Braden Liu"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Suction solenoid",
+            "cost": 1.68,
+            "quantity": 66
+        },
+        {
+            "part": "Raspberry pi 4",
+            "cost": 45,
+            "quantity": 1
+        },
+        {
+            "part": "raspberry pi battery supply",
+            "cost": 39.95,
+            "quantity": 1
+        },
+        {
+            "part": "Raspberry pi camera",
+            "cost": 19.99,
+            "quantity": 1
+        },
+        {
+            "part": "Neopixel light bar",
+            "cost": 5.95,
+            "quantity": 1
+        },
+        {
+            "part": "Techspark 3d printing",
+            "cost": null,
+            "quantity": null
+        }
+    ],
+    "image": "/project-images/00176.jpg"
+}

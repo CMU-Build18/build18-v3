@@ -1,0 +1,28 @@
+{
+    "title": "Wake Up!",
+    "date": "2023",
+    "detail": "We want to make a head-mounted product that vibrates whenever the user is detected with low attention level. For instance, if a person is falling asleep while driving, it will detect the user\u2019s brain wave and recognize that the attention level is relatively low, thus will start vibrating and wake the user up. The same functionality can be helpful to students who really wants to pay attention in class.\n\nTo achieve this goal, we will only need a head-mounted brain wave sensor, some small vibration motors, and a microcontroller. The logic is pretty simple: first use the brain wave sensor to collect data when people are focusing or distracted; then create a machine learning model to train an algorithm to react when the user is distracted; finally connecting the sensor and vibration motor to the microcontroller and add a button that could turn it on and off.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Yixuan Liu"
+        },
+        {
+            "username": "",
+            "name": "Haiyu Li"
+        },
+        {
+            "username": "",
+            "name": "Zhixing Wang"
+        },
+        {
+            "username": "",
+            "name": "Zhiying Meng"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00185.png"
+}

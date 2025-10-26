@@ -1,0 +1,86 @@
+{
+    "title": "Happy Zappy",
+    "date": "2024",
+    "detail": "Tesla coil go zapzapzap",
+    "featured": false,
+    "awards": [],
+    "extended_details": "Our project involved doing research on how tesla coils work and attempting to implement one of our own making. There is lots of variable quality resources strew across the internet which we have pieced together (minus a few parts) ",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Gabriel Hall"
+        },
+        {
+            "username": "",
+            "name": "Spencer Li"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Wireless Power Transmission Demonstration",
+            "cost": 17.99,
+            "quantity": 1
+        },
+        {
+            "part": "14 Gauge Wire",
+            "cost": 20.25,
+            "quantity": 1
+        },
+        {
+            "part": "32 AWG Magnet Wire ",
+            "cost": 27.11,
+            "quantity": 1
+        },
+        {
+            "part": "1/2\" PVC Male Adapter",
+            "cost": 0.75,
+            "quantity": 6
+        },
+        {
+            "part": "1/2\" PVC Side Outlet",
+            "cost": 2.81,
+            "quantity": 8
+        },
+        {
+            "part": "1/2\" PVC Tee",
+            "cost": 0.79,
+            "quantity": 3
+        },
+        {
+            "part": "1\" PVC Coupling",
+            "cost": 0.87,
+            "quantity": 1
+        },
+        {
+            "part": "1\"x1/2\" PVC Bushing",
+            "cost": 1.65,
+            "quantity": 1
+        },
+        {
+            "part": "1\"x2' PVC Pipe",
+            "cost": 3.14,
+            "quantity": 1
+        },
+        {
+            "part": "1/2\"x2' PVC Pipe",
+            "cost": 1.74,
+            "quantity": 6
+        },
+        {
+            "part": "Microwave",
+            "cost": 59.98,
+            "quantity": 1
+        },
+        {
+            "part": "Variac",
+            "cost": 54.99,
+            "quantity": 1
+        },
+        {
+            "part": "Capacitors",
+            "cost": 10.48,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00168.jpg"
+}

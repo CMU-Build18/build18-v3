@@ -1,0 +1,28 @@
+{
+    "title": "GM18100",
+    "date": "2024",
+    "detail": "We used NVIDIA\u2019s Jetson Nano to perform object detection using\nOpenCV and ImageNet.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "We envisioned a system to aid the visually impaired. We wanted to make objects in view\nto a camera audible to the user. This required a small form factor computer with enough\ncompute, like NVIDIA\u2019s Jetson Nano. We also sourced a USB web camera that we already\nhad. With the Jetson set up and camera connected, our main challenges included setting\nup the imaging circuitry and using OpenCV for object identification. We weren\u2019t able to\nmake it to the audible portion of our design.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Matt Ngaw"
+        },
+        {
+            "username": "",
+            "name": "Casper Wong"
+        },
+        {
+            "username": "",
+            "name": "Nate Zhu"
+        },
+        {
+            "username": "",
+            "name": "Chris Porco"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00141.png"
+}

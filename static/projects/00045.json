@@ -1,0 +1,49 @@
+{
+    "title": "Palm Precision",
+    "date": "2024",
+    "detail": "Intelligent alarm with sleep tracking and mechanical wakeup mechanism",
+    "featured": false,
+    "awards": [],
+    "extended_details": "We propose the development of a multi-functional slapping alarm that not only wakes users up but also slaps the sleeper for improved functionality and user experience. This innovative alarm system is designed to ensure a more effective and interactive way of starting the day.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Gongwei(David) Wang"
+        },
+        {
+            "username": "",
+            "name": "Angela Mi"
+        },
+        {
+            "username": "",
+            "name": "Jianing(Andy) Li"
+        },
+        {
+            "username": "",
+            "name": "Sutong Yao"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Slapper hand",
+            "cost": 15.89,
+            "quantity": 1
+        },
+        {
+            "part": "Accelerometer",
+            "cost": 13.77,
+            "quantity": 1
+        },
+        {
+            "part": "Breadboard",
+            "cost": 7.09,
+            "quantity": 1
+        },
+        {
+            "part": "Arduino starter kit",
+            "cost": 63.59,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00045.jpg"
+}

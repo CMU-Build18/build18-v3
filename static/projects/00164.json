@@ -1,0 +1,99 @@
+{
+    "title": "Daily Jewlery Surprise",
+    "date": "2024",
+    "detail": "Our project aims to add fun to everyone's life and solve the everyday morning dilemma of making choices. Daily Jewelry Surprise is an innovative hardware product that combines jewelry and surprises to offer users a unique daily experience.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "\"I have a friend who works in the clothing industry. Every morning, she struggles with deciding which earrings to wear for the day. One day, it occurred to me that if we could create a daily blind box for the jewelry, wouldn't it be a solution to such a choice dilemma?\n\nA \"\"daily blind box\"\" is a concept where you receive a surprise or random item each day, often in a sealed box or container. The box's contents are not revealed until you open it, creating an element of surprise and excitement. That is where my idea for a \"\"Daily Jewelry Surprise\"\" comes from, where a box with multiple compartments (each containing a piece of jewelry) is locked, and only one compartment is unlocked each day, adding an element of surprise to the wearer's daily routine.\"",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Shravya Sai Koushik"
+        },
+        {
+            "username": "",
+            "name": "Yuchen Dai"
+        },
+        {
+            "username": "",
+            "name": "Serena Shih"
+        },
+        {
+            "username": "",
+            "name": "Anna Cai"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Electromagnetic Solenoid Lock, 4 Pcs",
+            "cost": 15.97,
+            "quantity": 3
+        },
+        {
+            "part": "DIYables 3pcs Relay Module for Arduino",
+            "cost": 7.99,
+            "quantity": 3
+        },
+        {
+            "part": "Jumper Wires",
+            "cost": 5.99,
+            "quantity": 1
+        },
+        {
+            "part": "Arduino Uno REV3 [A000066]",
+            "cost": 24.84,
+            "quantity": 1
+        },
+        {
+            "part": "DIYables USB Cable for Arduino Uno Mega, USB 2.0 Cable Type A/B, 2 Pieces",
+            "cost": 8.49,
+            "quantity": 1
+        },
+        {
+            "part": "TMEZON 12 Volt 2A Power Adapter Usb Supply AC to DC",
+            "cost": 7.19,
+            "quantity": 1
+        },
+        {
+            "part": "DIYables Proto Screw Shield Assembled Terminal Block Prototype Expansion Board for Arduino Uno",
+            "cost": 7.99,
+            "quantity": 1
+        },
+        {
+            "part": "BTF-LIGHTING WS2812B 100PCS 5050SMD Individually Addressable Smart RGB LED Pixel for Arduino 5V",
+            "cost": 13.59,
+            "quantity": 1
+        },
+        {
+            "part": "Micro servo motors (4-packs)",
+            "cost": 11.99,
+            "quantity": 2
+        },
+        {
+            "part": "LED light strip",
+            "cost": 14.99,
+            "quantity": 1
+        },
+        {
+            "part": "Adafruit Tactile Switch Buttons (12mm Square, 6mm Tall) x 10 Pack",
+            "cost": 5.95,
+            "quantity": 1
+        },
+        {
+            "part": "ELEGOO UNO R3 Board ATmega328P with USB Cable(Arduino-Compatible) for Arduino",
+            "cost": 16.99,
+            "quantity": 1
+        },
+        {
+            "part": "Real Time Clock Module for AVR ARM PIC SMD for Arduino",
+            "cost": 6.99,
+            "quantity": 1
+        },
+        {
+            "part": "Male to Male 4 and 8 Inch Solderless Ribbon Dupont-Compatible Jumper Wires",
+            "cost": 6.49,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00164.png"
+}

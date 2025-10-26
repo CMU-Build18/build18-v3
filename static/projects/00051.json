@@ -1,0 +1,52 @@
+{
+    "title": "FPGA Rasterization",
+    "date": "2024",
+    "detail": "Triangle rasterization using Hardware with FPGA.",
+    "extended_details": "Video games use many triangles to represent the frame to be rendered. To accelerate this, we decided to design hardware that would be able to translate screen space triangles into pixel colors that show up on the monitor. We tried to print a case with the PLA, but the print failed.",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Gaurav Savant"
+        },
+        {
+            "username": "",
+            "name": "Devdutt Nadkarni"
+        },
+        {
+            "username": "",
+            "name": "Perrin Tong"
+        },
+        {
+            "username": "",
+            "name": ""
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "DE-10 Nano",
+            "cost": 190,
+            "quantity": 1
+        },
+        {
+            "part": "DE-10 Nano heatsink and fan",
+            "cost": 15,
+            "quantity": 1
+        },
+        {
+            "part": "SAMSUNG PRO Ultimate microSD Memory Card 256gb",
+            "cost": 25,
+            "quantity": 1
+        },
+        {
+            "part": "Black PLA",
+            "cost": 18.99,
+            "quantity": 1
+        }
+    ],
+    "awards": [
+        ""
+    ],
+    "built18": false,
+    "image": "/project-images/00051.jpg",
+    "features": []
+}

@@ -1,0 +1,32 @@
+{
+    "title": "Doodl-E",
+    "date": "2023",
+    "detail": "We want to build a robot that takes a drawing (or potentially some text) by the user and replicates it on some surface (or, if given some text, draws a \"doodle\" based on what's given.)",
+    "featured": false,
+    "awards": [],
+    "extended_details": "",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Alexis Duong"
+        },
+        {
+            "username": "",
+            "name": "Ankita Chatterjee"
+        },
+        {
+            "username": "",
+            "name": "Bharathi Sridhar"
+        },
+        {
+            "username": "",
+            "name": "Nicole Feng"
+        },
+        {
+            "username": "",
+            "name": "Swati Anshu"
+        }
+    ],
+    "parts_and_costs": [],
+    "image": "/project-images/00183.png"
+}

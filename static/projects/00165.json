@@ -1,0 +1,66 @@
+{
+    "title": "18220Bot",
+    "date": "2024",
+    "detail": "Uses a camera and machine learning model to identify resistors.",
+    "featured": false,
+    "awards": [],
+    "extended_details": "We wanted to create a project to sort resistors for our 220 lab. The idea was to take a picture of a resistor with the raspberry pi camera and use a machine learning model to identify it. Once identified, stepper motors would rotate a lever to push the resistor to the left or right. Three levels of this would push each different resistor into one of eight different spots. The frame was built with wood and the levers were built with cardboard. We wanted these to be 3d printed but this didn't happen. The overall outcome is that the project doesn't work yet. Fitting the cardboard to the stepper motors was difficult so they don't rotate well",
+    "team_profiles": [
+        {
+            "username": "",
+            "name": "Roman Kapur"
+        },
+        {
+            "username": "",
+            "name": "Jacob Rohozen"
+        }
+    ],
+    "parts_and_costs": [
+        {
+            "part": "Alchitry Au FPGA Development Board (Xilinx Artix 7)",
+            "cost": 110,
+            "quantity": 1
+        },
+        {
+            "part": "Alchitry Br Prototype Element Board",
+            "cost": 16.5,
+            "quantity": 1
+        },
+        {
+            "part": "ELEGOO 5 Sets 28BYJ-48 ULN2003 5V Stepper Motor + ULN2003 Driver Board Compatible with Arduino ",
+            "cost": 14.99,
+            "quantity": 1
+        },
+        {
+            "part": "ELEGOO 5 Sets 28BYJ-48 ULN2003 5V Stepper Motor + ULN2003 Driver Board Compatible with Arduino ",
+            "cost": 14.99,
+            "quantity": 1
+        },
+        {
+            "part": "7 Segment Display",
+            "cost": 1.6,
+            "quantity": 10
+        },
+        {
+            "part": "7 Segment Display",
+            "cost": 1.6,
+            "quantity": 6
+        },
+        {
+            "part": "Raspberry pi 4b 2gb ram",
+            "cost": 45,
+            "quantity": 1
+        },
+        {
+            "part": "Raspberry pi camera ",
+            "cost": 29.95,
+            "quantity": 1
+        },
+        {
+            "part": "3d Printer Filament",
+            "cost": 35,
+            "quantity": 1
+        }
+    ],
+    "image": "/project-images/00165.jpg"
+}
