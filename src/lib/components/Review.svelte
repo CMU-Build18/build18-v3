@@ -515,16 +515,18 @@
 								<div>
 									<!-- Checkboxes for filtering -->
 									<div class="flex items-center gap-2 pb-4">
-										<label class="text-sm font-medium text-gray-700">Filter by Track:</label>
+										<span class="text-sm font-medium text-gray-700">Filter by Track:</span>
 										<button
 											class={`px-2 py-1 rounded-md hover:bg-gray-300 ${toggleTrack1 ? 'bg-orange-500 text-white' : 'bg-gray-200 text-gray-700'}`}
 											on:click={() => handleFilterToggle('track1')}
+											aria-label="Filter by Track 1"
 										>
 											1
 										</button>
 										<button
 											class={`px-2 py-1 rounded-md hover:bg-gray-300 ${toggleTrack2 ? 'bg-orange-500 text-white' : 'bg-gray-200 text-gray-700'}`}
 											on:click={() => handleFilterToggle('track2')}
+											aria-label="Filter by Track 2"
 										>
 											2
 										</button>
@@ -532,17 +534,19 @@
 										<button
 											class={`px-2 py-1 rounded-md hover:bg-gray-300 ${!toggleTrack2 && !toggleTrack2Unsorted && !toggleTrack1 ? 'bg-orange-500 text-white' : 'bg-gray-200 text-gray-700'}`}
 											on:click={() => handleFilterToggle('all')}
+											aria-label="Show All Tracks"
 										>
 											All
 										</button>
 									</div>
-									<label class="block text-sm font-medium text-gray-700 mb-2"> Feedback </label>
+									<label for="feedback-textarea" class="block text-sm font-medium text-gray-700 mb-2"> Feedback </label>
 									<textarea
+										id="feedback-textarea"
 										bind:value={feedback}
 										class="w-full p-2 border border-gray-300 rounded-md"
 										rows="4"
 										placeholder="Enter your feedback..."
-									/>
+									></textarea>
 								</div>
 
 								<!-- Vote Buttons -->

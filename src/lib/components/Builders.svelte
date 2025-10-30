@@ -376,13 +376,18 @@
 {#if showBuilders}
 	<div
 		class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
+		role="dialog"
+		aria-modal="true"
+		aria-labelledby="builders-modal-title"
 		on:click={() => (showBuilders = false)}
+		on:keydown={(e) => e.key === 'Escape' && (showBuilders = false)}
+		tabindex="-1"
 	>
 		<div
 			class="bg-white p-6 rounded-lg shadow-lg max-w-2xl max-h-[80vh] overflow-y-auto"
-			on:click|stopPropagation
+			role="document"
 		>
-			<h2 class="text-2xl font-extrabold mb-4 text-orange-500 text-center uppercase">
+			<h2 id="builders-modal-title" class="text-2xl font-extrabold mb-4 text-orange-500 text-center uppercase">
 				Matched Builders
 			</h2>
 			<ul class="divide-y divide-gray-200">
@@ -392,13 +397,20 @@
 					if (!a.resumeURL && b.resumeURL) return 1;
 					return a.name.localeCompare(b.name);
 				}) as user}
-					<li
-						class="py-3 px-4 {user.resumeURL
-							? 'text-orange-500 cursor-pointer hover:bg-orange-50'
-							: 'text-gray-500'}"
-						on:click={() => user.resumeURL && handleUserClick(user)}
-					>
-						{user.name}
+					<li class="py-3 px-4">
+						{#if user.resumeURL}
+							<button
+								type="button"
+								class="w-full text-left text-orange-500 cursor-pointer hover:bg-orange-50 p-2 rounded transition-colors"
+								on:click={() => handleUserClick(user)}
+							>
+								{user.name}
+							</button>
+						{:else}
+							<span class="text-gray-500 p-2 block">
+								{user.name}
+							</span>
+						{/if}
 					</li>
 				{/each}
 			</ul>
@@ -407,17 +419,11 @@
 {/if}
 
 <style>
-	.no-scrollbar::-webkit-scrollbar {
-		display: none;
-	}
-	.no-scrollbar {
-		-ms-overflow-style: none; /* IE and Edge */
-		scrollbar-width: none; /* Firefox */
-	}
+
 	::-webkit-scrollbar {
 		display: none;
 	}
-	html {
+	:global(html) {
 		scrollbar-width: none;
 	}
 	.bg-custom {

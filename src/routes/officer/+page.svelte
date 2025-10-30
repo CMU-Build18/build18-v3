@@ -21,8 +21,8 @@
 	<div class="relative z-10 max-w-6xl mx-auto px-4 py-12 text-center">
 		{#if loading}
 			<div class="animate-pulse space-y-4">
-				<div class="h-4 bg-orange-200 rounded w-3/4 mx-auto" />
-				<div class="h-4 bg-orange-200 rounded w-1/2 mx-auto" />
+				<div class="h-4 bg-orange-200 rounded w-3/4 mx-auto"></div>
+				<div class="h-4 bg-orange-200 rounded w-1/2 mx-auto"></div>
 			</div>
 		{:else}
 			<p class="mb-4">Please click the button below if not redirected automatically...</p>

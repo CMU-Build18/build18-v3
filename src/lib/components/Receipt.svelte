@@ -184,17 +184,11 @@
 </div>
 
 <style>
-	.no-scrollbar::-webkit-scrollbar {
-		display: none;
-	}
-	.no-scrollbar {
-		-ms-overflow-style: none; /* IE and Edge */
-		scrollbar-width: none; /* Firefox */
-	}
+
 	::-webkit-scrollbar {
 		display: none;
 	}
-	html {
+	:global(html) {
 		scrollbar-width: none;
 	}
 	.customization-tools {

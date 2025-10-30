@@ -135,7 +135,9 @@
 									target="_blank"
 									rel="noopener noreferrer"
 									class="text-white hover:text-orange-200"
+									title="LinkedIn Profile"
 								>
+									<Link2 size={24} />
 								</a>
 							{/if}
 							{#if userData?.email}

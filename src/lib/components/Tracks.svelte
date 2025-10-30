@@ -12,15 +12,7 @@
 		Timestamp,
 		onSnapshot
 	} from 'firebase/firestore';
-	import {
-		getStorage,
-		ref,
-		getBytes,
-		uploadBytes,
-		getDownloadURL,
-		list,
-		listAll
-	} from 'firebase/storage';
+
 	import { ThumbsUp, ThumbsDown, AlertTriangle, MessageSquare, Copy, Check } from 'lucide-svelte';
 	import { fade, fly } from 'svelte/transition';
 	import { get } from 'svelte/store';

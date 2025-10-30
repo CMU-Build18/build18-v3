@@ -2,7 +2,7 @@
 	import { onMount, tick } from 'svelte';
 	import { auth, db } from '../../lib/firebase';
 	import { collection, query, getDocs, doc, getDoc, Timestamp, where } from 'firebase/firestore';
-	import { getStorage, ref, listAll, getDownloadURL } from 'firebase/storage';
+
 	import Chart from 'chart.js/auto';
 	import 'chartjs-adapter-moment';
 	import { ScanQrCode, UsersRound, Search, ArrowUpWideNarrow } from 'lucide-svelte';
