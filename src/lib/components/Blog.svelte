@@ -72,12 +72,26 @@
 
 	const events = [
 		{
-			title: 'Track 2 Deadline',
-			date: '2025-10-20',
+			title: 'Parts Pickup',
+			date: '2026-01-12',
+			time: '9AM - 4PM',
+			content:
+				'Build week is finally here! Pick up any parts that you ordered through us!'
+		}		
+	];
+
+	const pastEvents = [
+		{
+			title: '2026 Parts List Deadline',
+			date: '2025-11-17',
 			time: 'Midnight',
 			location: 'Dashboard',
-			content:
-				'Make sure to submit in Dashboard by 10/20 to be considered for an ambitious project 🤖'
+			content: 'Sign your builder contract and finalize your parts list!'
+		},
+		{
+			title: 'Tech Talk - CAD',
+			date: '2025-10-30',
+			content: 'Come join us to learn about CAD, 3D Printing, and Laser Cutting!'
 		},
 		{
 			title: 'Track 1 Deadline',
@@ -88,20 +102,13 @@
 				'Make sure to submit in Dashboard by 10/24 to be considered for a standard project 👀'
 		},
 		{
-			title: 'Tech Talk - CAD',
-			date: '2025-10-30',
-			content: 'Come join us to learn about CAD, 3D Printing, and Laser Cutting!'
-		},
-		{
-			title: '2026 Parts List Deadline',
-			date: '2025-11-17',
+			title: 'Track 2 Deadline',
+			date: '2025-10-20',
 			time: 'Midnight',
 			location: 'Dashboard',
-			content: 'Sign your builder contract and finalize your parts list!'
-		}
-	];
-
-	const pastEvents = [
+			content:
+				'Make sure to submit in Dashboard by 10/20 to be considered for an ambitious project 🤖'
+		},
 		{
 			title: 'Team Registration Deadline',
 			date: '2025-10-12',
