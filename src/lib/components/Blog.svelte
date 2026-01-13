@@ -70,17 +70,17 @@
 		}
 	];
 
-	const events = [
+	const events = [	
+	];
+
+	const pastEvents = [
 		{
 			title: 'Parts Pickup',
 			date: '2026-01-12',
 			time: '9AM - 4PM',
 			content:
 				'Build week is finally here! Pick up any parts that you ordered through us!'
-		}		
-	];
-
-	const pastEvents = [
+		},
 		{
 			title: '2026 Parts List Deadline',
 			date: '2025-11-17',
