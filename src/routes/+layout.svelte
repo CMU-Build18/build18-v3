@@ -11,6 +11,7 @@
 		House,
 		Warehouse,
 		MessageSquare,
+		Handshake,
 		LayoutPanelLeft,
 		Settings,
 		LogOut
@@ -115,6 +116,11 @@
 						<li id="navBlog" class="flex items-center justify-center">
 							<a href="/blog" class="nav-link">
 								<MessageSquare size="24" />
+							</a>
+						</li>
+						<li id="navSponsorPacket" class="flex items-center justify-center">
+							<a href="/sponsor-packet-2027.pdf" class="nav-link">
+								<Handshake size="24" />
 							</a>
 						</li>
 						{#if user}

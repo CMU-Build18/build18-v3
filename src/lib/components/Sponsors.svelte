@@ -107,8 +107,8 @@
 
 	<div class="flex justify-center mb-16">
 		<!-- <a
-			href="/sponsor-packet.pdf"
-			download="Build18 Sponsorship Packet"
+			href="/sponsor-packet-2027.pdf"
+			download="Build18 2027 Sponsorship Packet"
 			class="relative text-center px-6 py-3 text-[#ff8236] font-bold uppercase border-2 border-[#ff8236] rounded-md transition duration-300 ease-in-out shadow-[0_0_15px_rgba(255,130,54,0.5)] hover:bg-[#ff8236] hover:text-white hover:shadow-[0_0_30px_rgba(255,130,54,0.8)] before:content-[''] before:absolute before:inset-[-5px] before:rounded-md before:bg-[rgba(255,130,54,0.5)] before:opacity-0 hover:before:opacity-100 before:transition before:duration-300"
 		>
 			See our prospectus
