@@ -3,40 +3,123 @@
 
 	const currentMembers = [
 		{
+			name: 'Rucha Kurani',
+			roles: ['President'],
+			linkedin: 'https://www.linkedin.com/in/rucha-kurani-3515b5239/',
+			photo: '/members/rucha-kurani.jpg'
+		},
+		{
+			name: 'Amulya Meduri',
+			roles: ['Vice President'],
+			linkedin: 'https://www.linkedin.com/in/amulya-meduri/',
+			photo: '/members/amulya-meduri.jpg'
+		},
+		{
+			name: 'Michelle Chen',
+			roles: ['Vice President'],
+			linkedin: 'https://www.linkedin.com/in/michelle-chen-ece',
+			photo: '/members/michelle-chen.jpg'
+		},
+		{
+			name: 'Devika Manohar',
+			roles: ['Sponsorship'],
+			linkedin: 'https://www.linkedin.com/in/devika-manohar/',
+			photo: '/members/devika-manohar.jpg'
+		},
+		{
+			name: 'Rohit Kottomtharayil',
+			roles: ['Sponsorship'],
+			linkedin: 'https://www.linkedin.com/in/rohit-kottomtharayil',
+			photo: '/members/rohit-kottomtharayil.jpg'
+		},
+		{
+			name: 'Adam Kablawi',
+			roles: ['Sponsorship'],
+			linkedin: 'https://www.linkedin.com/in/adamkablawi/',
+			photo: '/members/adam-kablawi.jpg'
+		},
+		{
+			name: 'Agneya Tharun',
+			roles: ['Website'],
+			linkedin: 'https://www.linkedin.com/in/agneya-tharun',
+			photo: '/members/agneya-tharun.jpg'
+		},
+		{
+			name: 'Aileen Kim',
+			roles: ['Event Logistics'],
+			linkedin: 'https://www.linkedin.com/in/aileenjkim',
+			photo: '/members/aileen-kim.jpg'
+		},
+		{
+			name: 'Ashley Lee',
+			roles: ['Event Logistics'],
+			linkedin: 'https://www.linkedin.com/in/ting-yu-lee-47b59a2b8/',
+			photo: '/members/ashley-lee.jpg'
+		},
+		{
+			name: 'Akshaj Sharma',
+			roles: ['Tech Talks & TAs'],
+			linkedin: 'https://www.linkedin.com/in/akshaj-sharma-39510b211/',
+			photo: '/members/akshaj-sharma.jpg'
+		},
+		{
+			name: 'Kelvin Dong',
+			roles: ['Tech Talks & TAs'],
+			linkedin: 'https://www.linkedin.com/in/kelvin-dong',
+			photo: '/members/kelvin-dong.jpg'
+		},
+		{
+			name: 'Pranav Takrani',
+			roles: ['Tech Talks & TAs'],
+			photo: '/members/default.jpg'
+		},
+		{
+			name: 'Shaurya Tanwar',
+			roles: ['Tech Talks & TAs'],
+			linkedin: 'https://www.linkedin.com/in/shaurya-tanwar',
+			photo: '/members/shaurya-tanwar.jpg'
+		},
+		{
+			name: 'Taara Kuriyan',
+			roles: ['Tech Talks & TAs'],
+			linkedin: 'https://www.linkedin.com/in/taara-kuriyan',
+			photo: '/members/taara-kuriyan.jpg'
+		},
+		{
+			name: 'Vikram Mani',
+			roles: ['Tech Talks & TAs'],
+			linkedin: 'https://www.linkedin.com/in/vikram-mani/',
+			photo: '/members/vikram-mani.jpg'
+		},
+		{
+			name: 'Kacper Gasior',
+			roles: ['Tech Talks & TAs'],
+			photo: '/members/default.jpg'
+		},
+		{
+			name: 'Reagan Raphael',
+			roles: ['Media'],
+			linkedin: 'https://www.linkedin.com/in/reagan-raphael/',
+			photo: '/members/reagan-raphael.jpg'
+		},
+		{
+			name: 'Bill Nace',
+			roles: ['Faculty Mentor'],
+			photo: '/members/bill-nace.jpg'
+		}
+	];
+	const alumniMembers = [
+		{
 			name: 'Siena Lee',
 			roles: ['Co-President'],
 			linkedin: 'https://www.linkedin.com/in/sienahlee',
 			photo: '/members/siena-lee.jpg'
 		},
 		{
-			name: 'Rucha Kurani',
-			roles: ['Co-President'],
-			linkedin: 'https://www.linkedin.com/in/rucha-kurani-3515b5239/',
-			photo: '/members/rucha-kurani.jpg'
-		},
-		{
-			name: 'Michelle Chen',
-			roles: ['Co-Chair of Events'],
-			linkedin: 'https://www.linkedin.com/in/michelle-chen-08804a241/',
-			photo: '/members/michelle-chen.JPG'
-		},
-		{
 			name: 'Vivaan Sawant',
 			roles: ['Co-Chair of Sponsorship'],
 			linkedin: 'https://www.linkedin.com/in/vivaan-sawant008/',
 			photo: '/members/vivaan-sawant.png'
-		},
-		{
-			name: 'Amulya Meduri',
-			roles: ['Co-Chair of Sponsorship'],
-			linkedin: 'https://www.linkedin.com/in/amulya-meduri/',
-			photo: '/members/amulya-meduri.jpg'
-		},
-		{
-			name: 'Devika Manohar',
-			roles: ['Co-Chair of Sponsorship'],
-			linkedin: 'https://www.linkedin.com/in/devika-manohar/',
-			photo: '/members/devika-manohar.jpg'
 		},
 		{
 			name: 'Adriana Holtzman',
@@ -62,19 +145,6 @@
 			linkedin: 'https://www.linkedin.com/in/sanyaahuja/',
 			photo: '/members/sanya-ahuja.jpg'
 		},
-		{
-			name: 'Ashley Lee',
-			roles: ['Chair of Treasury & Logistics'],
-			linkedin: 'https://www.linkedin.com/in/ting-yu-lee-47b59a2b8/',
-			photo: '/members/ashley-lee.jpg'
-		},
-		{
-			name: 'Bill Nace',
-			roles: ['Faculty Mentor'],
-			photo: '/members/bill-nace.jpg'
-		}
-	];
-	const alumniMembers = [
 		{
 			name: 'Perrin Tong',
 			roles: ['Co-President'],
@@ -329,45 +399,87 @@
 		</button>
 	</div>
 
-	<div
-		class="grid grid-cols-2 px-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:px-32 lg:px-32 xl:px-32 px-4"
-	>
-		{#each activeTab === 'current' ? currentMembers : alumniMembers as member}
-			<div class="bg-gray-100 p-6 rounded shadow">
-				<img src={member.photo} alt={member.name} class="w-full h-auto rounded-full mb-4" />
-				<h3 class="md:text-xl lg:text-xl xl:text-xl text-lg mb-2">{member.name}</h3>
-				{#if member.roles.length > 0}
-					<ul class="text-sm text-gray-600 mb-4">
-						{#each member.roles as role}
-							<li>{role}</li>
-						{/each}
-					</ul>
-				{/if}
-				<div class="flex justify-center gap-4">
-					{#if member.github}
-						<a
-							href={member.github}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="text-gray-800 hover:underline"
-						>
-							<img src="/github.svg" alt="GitHub" class="w-6 h-6" />
-						</a>
+	{#if activeTab === 'current'}
+		<div
+			class="grid grid-cols-2 px-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:px-32 lg:px-32 xl:px-32 px-4"
+		>
+			{#each currentMembers as member}
+				<div class="bg-gray-100 p-6 rounded shadow">
+					<img
+						src={member.photo}
+						alt={member.name}
+						class="w-full aspect-square object-cover rounded-full mb-4"
+					/>
+					<h3 class="md:text-xl lg:text-xl xl:text-xl text-lg mb-2">{member.name}</h3>
+					{#if member.roles.length > 0}
+						<ul class="text-sm text-gray-600 mb-4">
+							{#each member.roles as role}
+								<li>{role}</li>
+							{/each}
+						</ul>
 					{/if}
-					{#if member.linkedin}
-						<a
-							href={member.linkedin}
-							target="_blank"
-							rel="noopener noreferrer"
-							class="text-gray-800 hover:underline"
-						>
-							<img src="/linkedin.svg" alt="LinkedIn" class="w-6 h-6" />
-						</a>
-					{/if}
+					<div class="flex justify-center gap-4">
+						{#if member.github}
+							<a
+								href={member.github}
+								target="_blank"
+								rel="noopener noreferrer"
+								class="text-gray-800 hover:underline"
+							>
+								<img src="/github.svg" alt="GitHub" class="w-6 h-6" />
+							</a>
+						{/if}
+						{#if member.linkedin}
+							<a
+								href={member.linkedin}
+								target="_blank"
+								rel="noopener noreferrer"
+								class="text-gray-800 hover:underline"
+							>
+								<img src="/linkedin.svg" alt="LinkedIn" class="w-6 h-6" />
+							</a>
+						{/if}
+					</div>
 				</div>
+			{/each}
+		</div>
+	{:else}
+		<!-- Alumni: compact scrollable list so the section stays a fixed height as it grows -->
+		<div class="mx-auto max-w-2xl px-4">
+			<div
+				class="max-h-[36rem] overflow-y-auto rounded-lg border border-gray-200 bg-white/70 shadow-inner divide-y divide-gray-200"
+			>
+				{#each alumniMembers as member}
+					{@const roles = member.roles.filter(Boolean)}
+					<div class="flex items-center gap-4 p-3 text-left">
+						<img
+							src={member.photo}
+							alt={member.name}
+							class="h-12 w-12 flex-shrink-0 rounded-full object-cover"
+						/>
+						<div class="min-w-0 flex-grow">
+							<h3 class="truncate text-base font-medium text-gray-800">{member.name}</h3>
+							{#if roles.length > 0}
+								<p class="truncate text-sm text-gray-500">{roles.join(', ')}</p>
+							{/if}
+						</div>
+						<div class="flex flex-shrink-0 items-center gap-3">
+							{#if member.github}
+								<a href={member.github} target="_blank" rel="noopener noreferrer">
+									<img src="/github.svg" alt="GitHub" class="h-5 w-5" />
+								</a>
+							{/if}
+							{#if member.linkedin}
+								<a href={member.linkedin} target="_blank" rel="noopener noreferrer">
+									<img src="/linkedin.svg" alt="LinkedIn" class="h-5 w-5" />
+								</a>
+							{/if}
+						</div>
+					</div>
+				{/each}
 			</div>
-		{/each}
-	</div>
+		</div>
+	{/if}
 </section>
 
 <style>
