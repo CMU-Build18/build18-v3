@@ -98,7 +98,7 @@
 		},
 		{
 			name: 'Reagan Raphael',
-			roles: ['Media'],
+			roles: ['Design'],
 			linkedin: 'https://www.linkedin.com/in/reagan-raphael/',
 			photo: '/members/reagan-raphael.jpg'
 		},
