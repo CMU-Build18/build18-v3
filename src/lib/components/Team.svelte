@@ -40,7 +40,7 @@
 		},
 		{
 			name: 'Agneya Tharun',
-			roles: ['Website'],
+			roles: ['Web & Infrastructure'],
 			linkedin: 'https://www.linkedin.com/in/agneya-tharun',
 			photo: '/members/agneya-tharun.jpg'
 		},
