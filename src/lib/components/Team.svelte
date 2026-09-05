@@ -3,6 +3,16 @@
 
 	const currentMembers = [
 		{
+			name: 'Kimmy Nguyen',
+			roles: ['CMU Faculty Mentor'],
+			photo: '/members/kimmy-nguyen.jpg'
+		},
+		{
+			name: 'Bill Nace',
+			roles: ['Faculty Mentor'],
+			photo: '/members/bill-nace.jpg'
+		},
+		{
 			name: 'Rucha Kurani',
 			roles: ['President'],
 			linkedin: 'https://www.linkedin.com/in/rucha-kurani-3515b5239/',
@@ -101,11 +111,6 @@
 			roles: ['Design'],
 			linkedin: 'https://www.linkedin.com/in/reagan-raphael/',
 			photo: '/members/reagan-raphael.jpg'
-		},
-		{
-			name: 'Bill Nace',
-			roles: ['Faculty Mentor'],
-			photo: '/members/bill-nace.jpg'
 		}
 	];
 	const alumniMembers = [
