@@ -9,7 +9,7 @@
 		},
 		{
 			name: 'Bill Nace',
-			roles: ['Faculty Mentor'],
+			roles: ['CMU Faculty Mentor'],
 			photo: '/members/bill-nace.jpg'
 		},
 		{
