@@ -71,7 +71,7 @@
 		{
 			name: 'Pranav Takrani',
 			roles: ['Tech Talks & TAs'],
-			photo: '/members/default.jpg'
+			photo: '/members/pranav-takrani.jpg'
 		},
 		{
 			name: 'Shaurya Tanwar',

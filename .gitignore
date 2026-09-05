@@ -28,3 +28,6 @@ cmu-build18-firebase-adminsdk-4snvq-bb218561eb.json
 
 # Source intake (form responses / raw photo drops — contains PII, do not serve or commit)
 intake/
+
+# Design system starter (local reference only — not part of the app, do not push)
+design-system/
