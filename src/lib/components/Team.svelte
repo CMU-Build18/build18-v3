@@ -25,12 +25,6 @@
 			photo: '/members/amulya-meduri.jpg'
 		},
 		{
-			name: 'Michelle Chen',
-			roles: ['Vice President'],
-			linkedin: 'https://www.linkedin.com/in/michelle-chen-ece',
-			photo: '/members/michelle-chen.jpg'
-		},
-		{
 			name: 'Devika Manohar',
 			roles: ['Sponsorship'],
 			linkedin: 'https://www.linkedin.com/in/devika-manohar/',
@@ -114,6 +108,12 @@
 		}
 	];
 	const alumniMembers = [
+		{
+			name: 'Michelle Chen',
+			roles: ['Vice President'],
+			linkedin: 'https://www.linkedin.com/in/michelle-chen-ece',
+			photo: '/members/michelle-chen.jpg'
+		},
 		{
 			name: 'Siena Lee',
 			roles: ['Co-President'],
