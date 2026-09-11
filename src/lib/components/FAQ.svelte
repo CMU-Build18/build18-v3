@@ -99,14 +99,29 @@
 		{/each}
 	</div>
 
-	<!-- Button to see our schedule -->
-	<div class="text-center mt-8">
-		<a
-			href="/blog"
-			class="px-6 py-4 text-lg font-bold text-white bg-[#ff8236] rounded-md shadow-md hover:shadow-lg transition-shadow duration-200"
-		>
-			SEE OUR SCHEDULE
-		</a>
+	<!-- Our schedule: embedded Google Calendar + one-click subscribe -->
+	<div class="mx-auto mt-12 max-w-4xl px-2">
+		<h3 class="mb-6 text-center text-xl font-bold text-gray-800 md:text-2xl">OUR SCHEDULE</h3>
+
+		<div class="overflow-hidden rounded-lg shadow-md">
+			<iframe
+				title="Build18 Google Calendar"
+				src="https://calendar.google.com/calendar/embed?src=c_87fad68c17ce787de9052c5381d553d4533919c6b7b72ad34f50837f2130beb4%40group.calendar.google.com&ctz=America%2FNew_York"
+				class="w-full h-[500px] md:h-[600px]"
+				style="border: 0"
+			></iframe>
+		</div>
+
+		<div class="mt-6 text-center">
+			<a
+				href="https://calendar.google.com/calendar/u/0?cid=Y184N2ZhZDY4YzE3Y2U3ODdkZTkwNTJjNTM4MWQ1NTNkNDUzMzkxOWM2YjdiNzJhZDM0ZjUwODM3ZjIxMzBiZWI0QGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20"
+				target="_blank"
+				rel="noopener noreferrer"
+				class="inline-block px-6 py-4 text-lg font-bold text-white bg-[#ff8236] rounded-md shadow-md hover:shadow-lg transition-shadow duration-200"
+			>
+				+ ADD TO GOOGLE CALENDAR
+			</a>
+		</div>
 	</div>
 </section>
 
