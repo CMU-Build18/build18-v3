@@ -98,7 +98,7 @@
 		{
 			name: 'Kacper Gasior',
 			roles: ['Tech Talks & TAs'],
-			photo: '/members/default.jpg'
+			photo: '/members/kacper-gasior.jpg'
 		},
 		{
 			name: 'Reagan Raphael',
