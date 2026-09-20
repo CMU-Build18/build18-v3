@@ -1,46 +1,33 @@
 <script>
-	const bit8_sponsors = [
+	const bit32_sponsors = [
 		{
-			name: 'Optiver',
-			logo: '/sponsors/optiver.png',
-			website: 'https://optiver.com',
-			tier: '8-bit'
+			name: 'Annapurna Labs',
+			logo: '/sponsors/annapurna-labs.png',
+			website: 'https://annapurnalabs.com',
+			tier: '32-bit'
 		},
 		{
 			name: 'Astera Labs',
 			logo: '/sponsors/astera-labs.png',
 			website: 'https://www.asteralabs.com/',
-			tier: '8-bit'
-		},
-		{
-			name: 'Tesla',
-			logo: '/sponsors/tesla.png',
-			website: 'https://www.tesla.com',
-			tier: '8-bit'
-		},
+			tier: '32-bit'
+		}
+	];
+
+	const bit16_sponsors = [
 		{
 			name: 'Hudson River Trading',
 			logo: '/sponsors/hudson-river-trading.png',
 			website: 'https://www.hudsonrivertrading.com',
-			tier: '8-bit'
-		},
+			tier: '16-bit'
+		}
+	];
 
+	const bit8_sponsors = [
 		{
-			name: 'Ford',
-			logo: '/sponsors/ford.png',
-			website: 'https://www.ford.com',
-			tier: '8-bit'
-		},
-		{
-			name: 'Smolens Endowment',
-			logo: '/sponsors/smolens-endowment.png',
-			website: '',
-			tier: '8-bit'
-		},
-		{
-			name: 'KEEN',
-			logo: '/sponsors/keen.png',
-			website: 'https://engineeringunleashed.com',
+			name: 'Rivian',
+			logo: '/sponsors/rivian.png',
+			website: 'https://rivian.com',
 			tier: '8-bit'
 		},
 		{
@@ -48,27 +35,24 @@
 			logo: '/sponsors/nucor.png',
 			website: 'https://www.nucor.com',
 			tier: '8-bit'
-		}
-	];
-
-	const bit16_sponsors = [
+		},
 		{
-			name: 'Johns Hopkins APL',
-			logo: '/sponsors/johns-hopkins.png',
-			website: 'https://www.jhuapl.edu/',
-			tier: '16-bit'
+			name: 'Marshall Wace',
+			logo: '/sponsors/marshall-wace.png',
+			website: 'https://www.marshallwace.com',
+			tier: '8-bit'
+		},
+		{
+			name: 'STR',
+			logo: '/sponsors/str.png',
+			website: 'https://str.us',
+			tier: '8-bit'
 		},
 		{
 			name: 'Caterpillar',
 			logo: '/sponsors/caterpillar.png',
 			website: 'https://www.caterpillar.com',
-			tier: '16-bit'
-		},
-		{
-			name: 'General Motors',
-			logo: '/sponsors/general-motors.png',
-			website: 'https://www.gm.com',
-			tier: '16-bit'
+			tier: '8-bit'
 		}
 	];
 
@@ -116,6 +100,22 @@
 	</div>
 
 	<div class="container mx-auto px-4 md:px-8">
+		<!-- 32-bit sponsors -->
+		<div class="mb-12">
+			<h2 class="text-4xl font-extrabold text-orange-500 text-center mb-6">32-bit</h2>
+			<div class="flex flex-wrap justify-center gap-8 mx-auto max-w-screen-xl">
+				{#each bit32_sponsors as sponsor, index}
+					<a href={sponsor.website} target="_blank" rel="noopener noreferrer">
+						<div
+							class="bg-transparent rounded-lg p-6 text-center transition duration-300 ease-in-out transform hover:-translate-y-1 hover:shadow-lg"
+						>
+							<img class="mx-auto w-48 h-48 object-contain" src={sponsor.logo} alt={sponsor.name} />
+						</div>
+					</a>
+				{/each}
+			</div>
+		</div>
+
 		<!-- 16-bit sponsors -->
 		<div class="mb-12">
 			<h2 class="text-4xl font-extrabold text-orange-500 text-center mb-6">16-bit</h2>
