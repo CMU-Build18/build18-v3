@@ -3,7 +3,7 @@
 		{
 			name: 'Annapurna Labs',
 			logo: '/sponsors/annapurna-labs.png',
-			website: 'https://annapurnalabs.com',
+			website: 'https://www.linkedin.com/company/annapurna-labs/',
 			tier: '32-bit'
 		},
 		{
@@ -39,7 +39,7 @@
 		{
 			name: 'Marshall Wace',
 			logo: '/sponsors/marshall-wace.png',
-			website: 'https://www.marshallwace.com',
+			website: 'https://www.mwam.com',
 			tier: '8-bit'
 		},
 		{
